@@ -17,42 +17,80 @@ This booking and staff management page needs to help arrange bookings and meetin
 
 ### End-User Requirements
 
-clients require an easy-to-use place to book consultations with a time, place and contact as well as their own details.
+GeoSolutions clients are all 20s to 50s professional clientele. This means that any system must use clear and but advanced language. It should be accessible in terms of colours and fonts used. The level of IT expertise of the users could vary from high to very low. This means that the system must be very intuitive to use. the jobs are all earth related, so the system should be nicely designed, possibly with an earth theme.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
-
-
+A website that allows a client to easily apply for a consultation, User should be able to:
+- View a list of all the jobs available with a description of each
+- make a booking with a dropdown menu for all the job types
+- view staff credentials as well as contact details 
+- Additionally, the system should:
+    - Be very simple to use
+    - Be accessible to all
+    - Be well designed and a pleasure to us
+- for admin they should be able to:
+    - View a list of bookings (organised by job, or by date)
+    - Add a new job type to the system
+    - Add new staff to the system
 -------------------------------------------------
 
 ## Relevant Implications
 
-### IMPLICATION NAME HERE
+### USABILITY
 
-Replace this text with a clear explanation of what the implication means.
+Getting Things Done Quickly and Easily
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+this is relevant to my project because the website must be easy to use and efficient to use to make the user experience enjoyable
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+- Follow standard conventions 
+- Make the behaviour of the outcome logical and familiar (e.g. page title leads to home page, etc.)
+- Provide the end-user with a clear route forwards (and back out, if needed)
+- Always make it obvious to the end-user what is happening (e.g. clear titles and loading pages, etc.)
 
-### IMPLICATION NAME HERE
+### FUNCTIONALITY
 
-Replace this text with a clear explanation of what the implication means.
+Everything Works, and Works Well
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+Websites must function as intended, so that the user can actually get done what they came there to do, and not take ages doing it.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+ - Fully satisfy the original need / purpose (e.g. actually be able to make bookings, etc.)
+ - Fully meet the user's requirements 
+ - Make sure that it copes with all inputs (normal, boundary and abnormal)
 
-### IMPLICATION NAME HERE
+### AESTHETICS
 
-Replace this text with a clear explanation of what the implication means.
+Great Designs with Style and Impact
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+Website must be pleasing to look at so the user can have an enjoyable user experience. as well as being able to easily see wht they're doing and find the elements with no issue. leading lines and frames help.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+- Create an overall design that appeals to the end-users (e.g. layout has  curved edges and nice sizing, etc.)
+- Create an overall design that is suitable for the outcome's purpose (e.g. icons and pictures that make sense like plants or dirt, etc.)
+- Use colours that work effectively together to create a pleasing effect (e.g. have a colour pallet that follows colour theory, etc.)
+- Use fonts that work well with the design and convey the business sense
+- Position elements of the design in a way that is balanced (e.g. items centred and bordered, etc.)
+- Group / separate elements to focus attention and/or link related items
 
+### END USERS
 
+Meets the User's Specific Needs
+
+website must cater to the end users specific needs such as having all the job options explained so they can see which one they need, and having a place to see the certifications of each staff member so that they can know how qualified they all are.
+
+- sculpt the site to suit the proper design conventions of a more mature end user (e.g. modern design, simplistic layout, etc.)
+- Use language and other content appropriate to my end-users (e.g. advanced language, no slang, formal, etc.)
+- page fully tailored to the stakeholders feedback structured how they want it.
+- Ensure it works on a range of devices, especially those likely to be used by the clients (e.g. all images have an alt tag, high contrast all around site, etc.)
+
+### LEGALITY
+
+Obey All Relevant New Zealand Laws
+
+website must have exclusive rights to all photos as well as permission to distribute staff details and pictures.
+
+- NZ privacy and data protection laws (e.g. [NZ Privacy Act 1993](https://privacy.org.nz/privacy-act-2020/privacy-principles/))(e.g. make sure that users know that their data is being collected and put into a database for storage, etc.)
+- NZ online bullying / harassment laws (e.g. [Harmful Digital Communications Act 2015](https://netsafe.org.nz/what-is-the-hdca/))(e.g. , etc.)
+- cover the legal insurance of the GeoSolutions business as well as a terms and conditions page for legal cover
 -------------------------------------------------
 
 ## Design, Development and Testing Log
