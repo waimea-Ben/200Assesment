@@ -1,16 +1,22 @@
 # asst
-![geosolutions](images/icon.png)
-# 200 Assesment GeoSolutions
+![Geosolutions](images/icon.png)
+# 200 Assessment GeoSolutions
 
 ## Description
 
-Booking and managemnt site for GeoSolutions LTD
+Booking and management site for GeoSolutions LTD. \
+It is a database-connected website that allows users to:
+
+- Find out details about the services GeoSolutions offer
+- Book consultations for specific services
+- Display Staff details and credentials
+- Allow staff to view the available bookings and status update them
+- Feature 5 here
 
 ## Table of Contents
 
 - design ideas [here](design.md)
-- testing notes [here](testing.md)
-
+- testing notes [here](development.md)
 
 ## Installation
 
@@ -24,7 +30,3 @@ Explain how to use your project, including examples if applicable.
 
  Ben Martin &copy; \
  GeoSolutions LTD
-
-## Contact
-
-Provide your contact information in case others have questions or want to reach out regarding your project.

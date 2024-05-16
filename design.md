@@ -28,7 +28,7 @@ A website that allows a client to easily apply for a consultation, User should b
 - Additionally, the system should:
     - Be very simple to use
     - Be accessible to all
-    - Be well designed and a pleasure to us
+    - Be well designed and a pleasure to use
 - for admin they should be able to:
     - View a list of bookings (organised by job, or by date)
     - Add a new job type to the system
@@ -97,61 +97,79 @@ website must have exclusive rights to all photos as well as permission to distri
 # User Experiences
  - ### Clear Navigation: 
 Will need to ensure easy and intuitive navigation throughout the website. Users should be able to quickly find information about the services offered, the process involved, and how to contact GeoSolutions. Use clear and descriptive labels for navigation items such as "Services," "Process," "Contact Us," etc.
+
 - ### Information Hierarchy:
  Must organize information in a logical hierarchy, prioritizing the most important information. For GeoSolutions, key information such as services offered, the importance of geotechnical reports, and the process involved in obtaining them should be prominently displayed.
+
 - ### Consistent Branding:
  Must remain consistent in branding elements such as logo, colors, and typography across the website. Consistent branding helps in building trust and recognition. Ensure that GeoSolutions' branding is cohesive and reflects the professionalism and reliability of the company.
+
 - ### Responsive Design:
  Must design the website to be responsive across various devices and screen sizes. Many users may access the website from mobile devices, so it's crucial to ensure a seamless experience regardless of the device being used.
+
 - ### User-Friendly Forms:
  If the website includes forms for requesting quotes or contacting GeoSolutions, ensure they are user-friendly and easy to fill out. Minimize the number of required fields and provide clear instructions to avoid user frustration.
+
 - ### Accessible Design:
  Will need to ensure that the website is accessible to users with disabilities. This includes using alt text for images and designing with color contrast in mind. 
+
 - ### Feedback and Support:
  Must have ways for users to provide feedback or get support if needed. This could include a contact form, live chat support, or a dedicated support email address. Promptly responding to inquiries helps build trust and credibility.
 
 -------------------------------------------------
 
-# Design, Development and Testing Log
+# Final System Design
 
-### DATE HERE
+## Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+## User Interface Design
 
-### DATE HERE
+Place images here that show your *final design* of your UI: layout, colours, etc.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+# Completed System
 
-Replace this test with what you are working on
+## Database Structure
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-### DATE HERE
+## User Interface Design
 
-Replace this test with what you are working on
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
+-------------------------------------------------
 
-Replace this test with what you are working on
+# Review and Evaluation
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+## Meeting the Needs of the Users
 
-### DATE HERE
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-Replace this test with what you are working on
+## Meeting the System Requirements
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### DATE HERE
+## Review of USABILITY
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+## Review of FUNCTIONALITY
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+## Review of AESTHETICS
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+## Review of END USERS
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+## Review of LEGALITY
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
