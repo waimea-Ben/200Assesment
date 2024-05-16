@@ -15,7 +15,7 @@ Assessment Standards: **91892** and **91893**
 
 Made the database layout plan for the site.
 ![DrawSQL db layout](image.png)
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Will need to run this past my stakeholder for feedback to make sure the database has all the details required
 
 
 ### DATE HERE
