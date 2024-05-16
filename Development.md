@@ -14,7 +14,7 @@ Assessment Standards: **91892** and **91893**
 ### 16/05/2024
 
 Made the database layout plan for the site.
-![DrawSQL db layout](image.png)
+![DrawSQL db layout](image.png) \
 Will need to run this past my stakeholder for feedback to make sure the database has all the details required
 
 
