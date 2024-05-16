@@ -9,7 +9,7 @@ Assessment Standards: **91892** and **91893**
 
 -------------------------------------------------
 
-## System Requirements
+# System Requirements
 
 ### Identified Need or Problem
 
@@ -35,7 +35,7 @@ A website that allows a client to easily apply for a consultation, User should b
     - Add new staff to the system
 -------------------------------------------------
 
-## Relevant Implications
+# Relevant Implications
 
 ### USABILITY
 
@@ -93,7 +93,26 @@ website must have exclusive rights to all photos as well as permission to distri
 - cover the legal insurance of the GeoSolutions business as well as a terms and conditions page for legal cover
 -------------------------------------------------
 
-## Design, Development and Testing Log
+
+# User Experiences
+ - ### Clear Navigation: 
+Will need to ensure easy and intuitive navigation throughout the website. Users should be able to quickly find information about the services offered, the process involved, and how to contact GeoSolutions. Use clear and descriptive labels for navigation items such as "Services," "Process," "Contact Us," etc.
+- ### Information Hierarchy:
+ Must organize information in a logical hierarchy, prioritizing the most important information. For GeoSolutions, key information such as services offered, the importance of geotechnical reports, and the process involved in obtaining them should be prominently displayed.
+- ### Consistent Branding:
+ Must remain consistent in branding elements such as logo, colors, and typography across the website. Consistent branding helps in building trust and recognition. Ensure that GeoSolutions' branding is cohesive and reflects the professionalism and reliability of the company.
+- ### Responsive Design:
+ Must design the website to be responsive across various devices and screen sizes. Many users may access the website from mobile devices, so it's crucial to ensure a seamless experience regardless of the device being used.
+- ### User-Friendly Forms:
+ If the website includes forms for requesting quotes or contacting GeoSolutions, ensure they are user-friendly and easy to fill out. Minimize the number of required fields and provide clear instructions to avoid user frustration.
+- ### Accessible Design:
+ Will need to ensure that the website is accessible to users with disabilities. This includes using alt text for images and designing with color contrast in mind. 
+- ### Feedback and Support:
+ Must have ways for users to provide feedback or get support if needed. This could include a contact form, live chat support, or a dedicated support email address. Promptly responding to inquiries helps build trust and credibility.
+
+-------------------------------------------------
+
+# Design, Development and Testing Log
 
 ### DATE HERE
 
