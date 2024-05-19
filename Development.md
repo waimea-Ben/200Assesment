@@ -20,10 +20,12 @@ Will need to run this past my stakeholder for feedback to make sure the database
 
 ### DATE HERE
 
-Replace this test with what you are working on
+Added a staff table to the database
+![DrawSQL DB layout V2](images/Drawsql2.png)
+added a a staff table to the database layout as will need a way to store all their data and their image.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
+Made a Flow diagram to display how the users will experience the site and what doing what will lead to.
+![FlowV1](images/FlowV1.png)
 ### DATE HERE
 
 Replace this test with what you are working on
