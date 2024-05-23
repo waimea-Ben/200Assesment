@@ -38,7 +38,8 @@ first two landing page iterations
 
 
 ### DATE HERE
-
+![Alt text](image-2.png) 
+further updated the database schema to include an image for the service
 Replace this test with what you are working on
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
