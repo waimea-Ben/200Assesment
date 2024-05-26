@@ -33,19 +33,28 @@ Replace this test with what you are working on
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
 ### 21/05/24
-![Alt text](image-1.png)
+![landing page one](images/LP1.png)
 first two landing page iterations
 
 
-### DATE HERE
-![Alt text](image-2.png) 
+### 22/05/24
+![Alt text](images/UDDB2.png) 
 further updated the database schema to include an image for the service
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
+### 27/05/24
 
-Replace this test with what you are working on
+Showed current layout and wireframe to client.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+> Needs an about us section on the home page like in iteration two, but i like the single page layout of the first one with the big GeoSolutions front and centre.
+
+Added a completed bookings table so the bookings can be flagged as completed
+![Alt text](images/COMP1.png)
+
+then changed it to an enum list so instead of having multiple tables for completed, in progress and unfinished. i can just have one table with an extra slot to contain all that data.
+
+![Alt text](images/COMP2.png)
+
+![Alt text](images/LP2.png)
+Incorporated CLIENT FEEDBACK AND MADE ONE BIG LANDING PAGE WITH ALL INFORMATION ON IT.
+will need to wait for extra feedback before progressing.
