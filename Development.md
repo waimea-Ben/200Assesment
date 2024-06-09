@@ -64,3 +64,36 @@ then changed it to an enum list so instead of having multiple tables for complet
 ![Alt text](images/LP2.png)
 Incorporated CLIENT FEEDBACK AND MADE ONE BIG LANDING PAGE WITH ALL INFORMATION ON IT.
 will need to wait for extra feedback before progressing.
+![Alt text](image-1.png)
+
+### 27/05/24
+> admin page looks unprofessional with those big words and dotted list, how am i going to access the new stuff page too?<
+
+Took notes on client feedback and made some changes to V1
+
+![Alt text](image-2.png)
+
+mainly in adding a better looking list with smoothed bars and a drop down at the edge to ,ove the items around fromssection to section as well as to deldte them
+
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+
+### 21/05/24
+> I like the welcome (home / landing) page – its succinct and includes most of the information needed. An awful lot of people search for us just to find out our phone number of contact email – so it would be great if some contact details were available or linkable from that home page. For the Book a Consultation page – most people who contact us have a project and site in mind and will have a site plan.  Can you add the following fields: site address Upload files: A place where we can ask them to upload a site plan showing the location of the development they’re proposing; or a preliminary design plan;
+ 
+
+ 
+
+I’m not sure we would use the ‘consultation tracker’ – we have in-house software for managing job progress
+
+ 
+
+Instead of that, you could possibly have a reviews page?  Or examples page?  Or both?
+
+Reviews would be a place where customers can leave reviews.
+Examples – we could upload photos of examples; split into groups
+(a) landslip repairs & slope stabilisation
+
+(b) subdivisions
+
+(c) liquefaction assessments etc

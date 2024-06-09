@@ -13,7 +13,7 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-This booking and staff management page needs to help arrange bookings and meeting times as well as allowing a central admin to manage staff details and ---
+GeoSolutions nz td has a website current;y but the website does not allow them the manage the staff as they come and go, requiring the client to message the website manger every time she needs an update. her current website does not have a place for reviews and example which she would like to have.
 
 ### End-User Requirements
 
@@ -47,6 +47,7 @@ this is relevant to my project because the website must be easy to use and effic
 - Make the behaviour of the outcome logical and familiar (e.g. page title leads to home page, etc.)
 - Provide the end-user with a clear route forwards (and back out, if needed)
 - Always make it obvious to the end-user what is happening (e.g. clear titles and loading pages, etc.)
+- will need to use lots of testing to make sure it works in all circumstances
 
 ### FUNCTIONALITY
 
@@ -57,6 +58,7 @@ Websites must function as intended, so that the user can actually get done what 
  - Fully satisfy the original need / purpose (e.g. actually be able to make bookings, etc.)
  - Fully meet the user's requirements 
  - Make sure that it copes with all inputs (normal, boundary and abnormal)
+ - will need to use lots of testing to make sure it works under all circumstances
 
 ### AESTHETICS
 
@@ -81,6 +83,7 @@ website must cater to the end users specific needs such as having all the job op
 - Use language and other content appropriate to my end-users (e.g. advanced language, no slang, formal, etc.)
 - page fully tailored to the stakeholders feedback structured how they want it.
 - Ensure it works on a range of devices, especially those likely to be used by the clients (e.g. all images have an alt tag, high contrast all around site, etc.)
+- will need to use lots of testing to make sure it suits all circumstances
 
 ### LEGALITY
 
