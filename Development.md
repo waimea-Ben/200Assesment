@@ -78,22 +78,21 @@ mainly in adding a better looking list with smoothed bars and a drop down at the
 ![Alt text](image-3.png)
 ![Alt text](image-4.png)
 
-### 21/05/24
-> I like the welcome (home / landing) page – its succinct and includes most of the information needed. An awful lot of people search for us just to find out our phone number of contact email – so it would be great if some contact details were available or linkable from that home page. For the Book a Consultation page – most people who contact us have a project and site in mind and will have a site plan.  Can you add the following fields: site address Upload files: A place where we can ask them to upload a site plan showing the location of the development they’re proposing; or a preliminary design plan;
- 
+### 10/06/24
 
- 
+Recieved some excelennt client feednack on the current design.
+> I like the welcome (home / landing) page – its succinct and includes most of the information needed. An awful lot of people search for us just to find out our phone number of contact email – so it would be great if some contact details were available or linkable from that home page. For the Book a Consultation page – most people who contact us have a project and site in mind and will have a site plan.  Can you add the following fields: site address 
+>Upload files: A place where we can ask them to upload a site plan showing the location of the development they’re proposing; or a preliminary design plan
+> I’m not sure we would use the ‘consultation tracker’ – we have in-house software for managing job progress, Instead of that, you could possibly have a reviews page?  Or examples page?  Or both?Reviews would be a place where customers can leave reviews.
+>Examples – we could upload photos of examples; split into groups
+>(a) landslip repairs & slope stabilisation
+>(b) subdivisions
+>(c) liquefaction assessments etc
 
-I’m not sure we would use the ‘consultation tracker’ – we have in-house software for managing job progress
+![Alt text](image.png)
+Implemented the feedback, by adding the asked fields to the booking page as well as adding a footer to the bottom of the home page where the contract details can be easily found.
+also added the asked example phots to the bottom of the services page and a corresponding add example file to the new section section
 
- 
-
-Instead of that, you could possibly have a reviews page?  Or examples page?  Or both?
-
-Reviews would be a place where customers can leave reviews.
-Examples – we could upload photos of examples; split into groups
-(a) landslip repairs & slope stabilisation
-
-(b) subdivisions
-
-(c) liquefaction assessments etc
+![Alt text](image-5.png)
+altered the databse to include a reviews table so thta we can store reviews
+![Alt text](image-6.png)
