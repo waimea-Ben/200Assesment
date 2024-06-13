@@ -113,3 +113,8 @@ made some small cleanup changed to the sql so that i did not have redundant colu
 The client stated that she is happy with the current design as has no further feedback
 >love the colour - nice and earthy goes with our core mantra. earth science is what we do - so lots of greens amd browns are good.
 >start coding now :)
+
+
+### 13/06/24
+Made some small changes to the figma layout adding a consultations page where the items can at least bge viewed as well as tidying up all the colours and buttons as well as making the figma site fully operable.
+![minor changes i7](images/figmai7.png)
