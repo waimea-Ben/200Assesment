@@ -16,7 +16,32 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), ERROR);
     die();
 }
-consoleLog($services);
+
+$query = 'SELECT * FROM staff ORDER BY name ASC';
+
+try{
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $staff = $stmt->fetchAll();
+}
+
+catch (PDOException $e) {
+    consoleLog($e->getMessage(), ERROR);
+    die();
+}
+
+$query = 'SELECT * FROM Reviews';
+
+try{
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $reviews = $stmt->fetchAll();
+}
+
+catch (PDOException $e) {
+    consoleLog($e->getMessage(), ERROR);
+    die();
+}
 
 ?>
 <main>  
@@ -41,12 +66,36 @@ consoleLog($services);
         foreach($services as $service) {
     echo    '<ul>';         
     echo    '<li>' . $service['name'] . '</li>';
-    echo    '<img src="' . $service['img_content'] . '">';
     echo    '</ul>';       
 }
 ?>
     </section>
 
+    <section id="staff">
+<?php
+        foreach($staff as $staffs) {
+    echo    '<article>';   
+    //echo    '<img src="' . $staffs['img_content'] . '">';      
+    echo    '<h1>' . $staffs['Name'] . '</h1>';
+    echo    '</article>';       
+}
+?>
+    </section>
+
+    <section id="reviews">
+        <h1>Reviews</h1>
+<?php
+        foreach($reviews as $review) {
+    echo    '<h2>' . $review['title'] . '</h2>';     
+    foreach(range(1,$review['stars']) as $stars){
+        echo    '✯';   
+    }
+    echo    '<p>' . $review['content'] . '</p>';
+    echo    '<hr>'; 
+
+}
+?>
+    </section>
 </main>
 
 
