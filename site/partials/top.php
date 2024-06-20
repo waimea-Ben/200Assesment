@@ -13,8 +13,12 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= SITE_NAME ?></title>
-    <link rel="stylesheet" href="pico.conditional.lime.css">
     <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
+/>
+    
 </head>
 
 <body>
@@ -23,7 +27,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <h2><a href="index.php"><?= SITE_NAME ?></a></h2>
         <a href="admin.php">Admin</a>
         <div class="dropdown" style="float:right;">
-        <button class="dropbtn"><img src="download.png"></button>
+        <button class="dropbtn"><img src="images/download.png"></button>
         <div class="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>

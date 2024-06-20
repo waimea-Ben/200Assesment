@@ -1,4 +1,4 @@
-<?php require 'utils.php'; 
+<?php require 'lib/utils.php'; 
 include 'partials/top.php';
 // Connect to the database 
 $db = connectToDB(); 
@@ -17,7 +17,7 @@ catch (PDOException $e) {
     die();
 }
 
-$query = 'SELECT * FROM staff ORDER BY name ASC';
+$query = 'SELECT id, `name` FROM staff ORDER BY `name` ASC';
 
 try{
     $stmt = $db->prepare($query);
@@ -29,6 +29,7 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), ERROR);
     die();
 }
+consoleLog($staff);
 
 $query = 'SELECT * FROM Reviews';
 
@@ -65,7 +66,7 @@ catch (PDOException $e) {
 <?php
         foreach($services as $service) {
     echo    '<ul>';         
-    echo    '<li>' . $service['name'] . '</li>';
+    echo    '<li><a href="service_info.php?id=' . $service['id'] . '">' . $service['name'] . '</li>';
     echo    '</ul>';       
 }
 ?>
@@ -73,11 +74,11 @@ catch (PDOException $e) {
 
     <section id="staff">
 <?php
-        foreach($staff as $staffs) {
-    echo    '<article>';   
-    //echo    '<img src="' . $staffs['img_content'] . '">';      
-    echo    '<h1>' . $staffs['Name'] . '</h1>';
-    echo    '</article>';       
+        foreach($staff as $staffMember) {
+    echo    '<div id="staffmember">';   
+    echo    '<img src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
+    echo    '<h1>' . $staffMember['name'] . '</h1>';
+    echo    '</div>';       
 }
 ?>
     </section>

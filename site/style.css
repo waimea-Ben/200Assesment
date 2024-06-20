@@ -44,3 +44,10 @@ article{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
+  #staffmember{
+    display: inline-block;
+    margin: 1rem;
+    width: 30%;
+    padding: 0.5rem;
+    background-color: #bebebe;
+  }
