@@ -107,7 +107,7 @@ received some further feedback on yesterdays iterations
 
 rearranged the layout of the home page to have reviews at bottom and the contact details above the services list
 
-![Alt text](![cleaned up sql](image.png)sqlv4.png)
+![cleaned up sql](images/sqlv4.png)
 made some small cleanup changed to the sql so that i did not have redundant columns
 
 The client stated that she is happy with the current design as has no further feedback

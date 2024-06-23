@@ -59,6 +59,7 @@ catch (PDOException $e) {
     <section id="contact">
         <h2>Contact us</h2>
         <p>1282 address bla bla, Email email, phone</p>
+        <a href="booking_form.php">Book A Consultation</a>
     </section>
 
     <section id="Services">
@@ -66,7 +67,7 @@ catch (PDOException $e) {
 <?php
         foreach($services as $service) {
     echo    '<ul>';         
-    echo    '<li><a href="service_info.php?id=' . $service['id'] . '">' . $service['name'] . '</li>';
+    echo    '<li><a href="service_info.php?id=' . $service['id'] . '">' . $service['name'] . '</a></li>';
     echo    '</ul>';       
 }
 ?>
