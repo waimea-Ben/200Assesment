@@ -24,7 +24,7 @@ consolelog($services);
 
 <h1> New Booking </h1>
 
- <form method="post" action="add-booking.php">
+ <form method="post" action="add-booking.php" enctype="multipart/form-data">
 
     <label>Name</label>
     <input type="text" 
@@ -64,8 +64,8 @@ consolelog($services);
 
     <label>Preliminary site plan</label>
     <input type="file" 
-           name="siteplan"
-           accept=".png, .jpg, .jpeg" 
+           name="image"
+           accept="image/*" 
            required 
            placeholder="upload file">
 

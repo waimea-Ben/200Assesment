@@ -13,15 +13,15 @@
     $db = connectToDB();
 
     // Get the image type and binary data
-    $query = 'SELECT image_type, image_data FROM staff WHERE id=?';
+    $query = 'SELECT image_type, image_content FROM services WHERE id=?';
 
     try {
         $stmt = $db->prepare($query);
         $stmt->execute([$id]);
-        $geosol = $stmt->fetch();
+        $serimage = $stmt->fetch();
 
         // Failed to get an image back?
-        if (!$geosol) throw new Exception();
+        if (!$serimage) throw new Exception();
     }
     catch (Exception $e) {
         // Failed, so 404
@@ -31,7 +31,7 @@
 
     //--------------------------------------------------------------------------
     // Got here, so all went well. Pass back the image data as a response
-    header('Content-type: ' . $geosol['image_type']);
-    echo $geosol['image_data'];
+    header('Content-type: ' . $serimage['image_type']);
+    echo $serimage['image_content'];
 
 ?>

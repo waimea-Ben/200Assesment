@@ -13,27 +13,22 @@ consoleLog($_FILES, 'FILES');
 ] = uploadedImageData($_FILES['image']);
 
 $name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$date = $_POST['date'];
-$service = $_POST['service'];
-$address = $_POST['address'];
-
+$description = $_POST['description'];
 
 $db = connectToDB();
 
-$query = 'INSERT INTO bookings 
-          (`name`, `email`, `phone`, `date`, `service`, `address`, image_type, image_data)
-          VALUES (?,?,?,?,?,?,?,?)';
+$query = 'INSERT INTO services 
+          (`name`, `description`, image_type, image_data)
+          VALUES (?,?,?,?)';
 
 try{
     $stmt = $db->prepare($query);
-    $stmt->execute([$name, $email, $phone, $date, $service, $address, $imageType, $imageData]);
+    $stmt->execute([$name, $description, $imageType, $imageData]);
 }
 
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'Booking Add', ERROR);
-    die('there was an error Adding booking to Database');
+    die('there was an error Adding new service to Database');
 }
 
 header('location: index.php');

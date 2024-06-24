@@ -29,8 +29,8 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <div class="dropdown" style="float:right;">
         <button class="dropbtn"><img src="images/download.png"></button>
         <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
+            <a href="booking_form.php">Booking</a>
+            <a href="admin_forms.php">Link 2</a>
             <a href="#">Link 3</a>
         </div> 
     </div>

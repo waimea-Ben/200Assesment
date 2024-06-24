@@ -35,7 +35,7 @@ consoleLog($service_images);
 
 
 echo    '<section id="hero_image">';
-echo       '<img src="" alt="">';
+echo    '<img src="load-main-service-image.php?id=' . $services['id'] . '">';      
 echo       '<h1>' . $services['name'] . '</h1>';
 echo    '</section>';
 
