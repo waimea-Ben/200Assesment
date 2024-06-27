@@ -13,7 +13,7 @@
     $db = connectToDB();
 
     // Get the image type and binary data
-    $query = 'SELECT image_type, image_content FROM services WHERE id=?';
+    $query = 'SELECT image_type, image_data FROM services WHERE id=?';
 
     try {
         $stmt = $db->prepare($query);
@@ -32,6 +32,6 @@
     //--------------------------------------------------------------------------
     // Got here, so all went well. Pass back the image data as a response
     header('Content-type: ' . $serimage['image_type']);
-    echo $serimage['image_content'];
+    echo $serimage['image_data'];
 
 ?>

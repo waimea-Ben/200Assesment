@@ -10,6 +10,11 @@
 
 }
 
+header{
+  display: flexbox;
+  justify-content: space-between;
+}
+
 article{
     display: flex;
     justify-content: space-between;
@@ -49,5 +54,59 @@ article{
     margin: 1rem;
     width: 30%;
     padding: 0.5rem;
-    background-color: #bebebe;
+    background-color: #fff;
   }
+
+  #bookings{
+    background-color: #A9CBAE;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+
+  summary::after {
+    content: '';
+    width: 18px;
+    height: 10px;
+    background: url('images/arrow.svg') no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+  }
+    summary a{
+    background-color: red;
+  }
+  
+  details[open] > summary::after {
+    transform: rotate(180deg);
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  details p {
+    margin: 0;
+  }
+  
+  details {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  
+  /* extra styles */
+  
+  * {box-sizing: border-box;}
+  body {font-family: system-ui, sans-serif; background: #fff;}
+  h1 {font-size: 1.2em;}
+  article > *:first-child {margin: 0;}
+  article > * + * {margin: 0.75em 0 0 0;}
+  article {padding: 0px; margin: 0;}
