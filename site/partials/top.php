@@ -25,18 +25,22 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
     <header>
         <h2><a href="index.php"><?= SITE_NAME ?></a></h2>
-        <a href="admin.php">Admin</a>
-        <div class="dropdown" style="float:right;">
-        <button class="dropbtn"><img src="images/download.png"></button>
-        <div class="dropdown-content">
-            <a href="booking_form.php">Booking</a>
-            <a href="admin_forms.php">Link 2</a>
-            <a href="#">Link 3</a>
-        </div> 
+
+        <label for='admin'>admin</label>
+        <input type='checkbox' name='admin' id='admin'>
+        <div id="admin-login">
+            <p>e</p>
+        </div>
+            <label for="menu"><img src="images/download.png"></label>
+            <input type='checkbox' name='menu' id='menu'>
+            <ul class="menu-options">
+                <li><a href="booking_form.php">Booking</a></li>
+                <li><a href="admin_forms.php">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
     </div>
     </header>
 
     <main>
-
 
 

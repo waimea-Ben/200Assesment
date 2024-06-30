@@ -80,10 +80,6 @@ article{
     background-size: cover;
     transition: 0.2s;
   }
-    summary a{
-    background-color: red;
-  }
-  
   details[open] > summary::after {
     transform: rotate(180deg);
   }
@@ -110,3 +106,34 @@ article{
   article > *:first-child {margin: 0;}
   article > * + * {margin: 0.75em 0 0 0;}
   article {padding: 0px; margin: 0;}
+
+
+
+  #admin-login{
+    display: none;
+  }
+
+  #admin{
+    display: none;
+  }
+
+  input:checked ~ #admin-login{
+    display: block;
+  }
+
+  #menu{
+    display: none;
+  }
+
+  input:checked ~ .menu-options{
+    display: block;
+  }
+
+.menu-options{
+  display: none;
+  top: 3em;
+  background: #ccc;
+  padding: 1em;
+  transition: all 500ms;
+  list-style: none;
+}

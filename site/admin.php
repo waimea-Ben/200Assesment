@@ -35,11 +35,11 @@ consolelog($bookings);
 <?php
         foreach($bookings as $booking) {  
     echo    '<details>';
-    echo    '<summary>' . $booking['bname'] . '<a href="delete-booking.php?id=' . $booking['bid'] . '">🗑️</a></summary>';
+    echo    '<summary>' . $booking['bname'] . '</summary>';
     echo    '<p>' .       $booking['baddress']    . '</p>';
     echo    '<p>' .       $booking['bphone']      . '</p>';
     echo    '<p>' .       $booking['bdate']       . '</p>';
-    echo    '<p>' .       $booking['sname']       . '</p>';
+    echo    '<a href="delete-booking.php?id=' . $booking['bid'] . '">🗑️</a>';
     echo    '</details>';       
 }
 ?>
