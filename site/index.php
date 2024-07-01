@@ -86,17 +86,19 @@ catch (PDOException $e) {
 
     <section id="reviews">
         <h1>Reviews</h1>
+        <div class="scrolling-wrapper">
 <?php
         foreach($reviews as $review) {
-    echo    '<h2>' . $review['title'] . '</h2>';     
+    echo    '<div class="card"><h2>' . $review['title'] . '</h2>';     
     foreach(range(1,$review['stars']) as $stars){
         echo    '✯';   
     }
     echo    '<p>' . $review['content'] . '</p>';
-    echo    '<hr>'; 
+    echo    '</div>'; 
 
 }
 ?>
+        </div>
     </section>
 </main>
 

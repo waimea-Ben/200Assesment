@@ -25,20 +25,39 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
     <header>
         <h2><a href="index.php"><?= SITE_NAME ?></a></h2>
+        <nav>
+                <label for='admin'>admin</label>
+                <input type='checkbox' name='admin' id='admin'>
+                <div id="admin-login">
+                    <form method="post" action="login.php">
+                        <?php if (isset($_GET['error'])) { ?>
+                            <p class="error"><?php echo $_GET['error']; ?></p>
+                        <?php } ?>
 
-        <label for='admin'>admin</label>
-        <input type='checkbox' name='admin' id='admin'>
-        <div id="admin-login">
-            <p>e</p>
-        </div>
-            <label for="menu"><img src="images/download.png"></label>
-            <input type='checkbox' name='menu' id='menu'>
-            <ul class="menu-options">
-                <li><a href="booking_form.php">Booking</a></li>
-                <li><a href="admin_forms.php">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-    </div>
+                            <label>Username</label>
+                            <input type="text" 
+                                name="username"  
+                                required>
+
+                            <label>Password</label>
+                            <input type="password" 
+                                name="password"
+                                required>
+
+                            <input id='add' type="submit" value="Login">
+                    </form>
+                </div>
+
+                <div id="menudiv">
+                    <label for="menu">☰</label>
+                    <input type='checkbox' name='menu' id='menu'>
+                    <ul class="menu-options">
+                        <li><a href="booking_form.php">Booking</a></li>
+                        <li><a href="admin_forms.php">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+            </div>
+        </nav>
     </header>
 
     <main>

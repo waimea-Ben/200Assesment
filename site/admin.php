@@ -43,7 +43,8 @@ consolelog($bookings);
     echo    '</details>';       
 }
 ?>
-<section></section>
+<a href="admin_forms.php">New</a>
+</section>
 
 
 <?php 
