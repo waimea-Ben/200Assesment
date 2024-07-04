@@ -74,31 +74,36 @@ catch (PDOException $e) {
     </section>
 
     <section id="staff">
+        <h2>Our Staff</h2>
+        <div>
 <?php
         foreach($staff as $staffMember) {
-    echo    '<div id="staffmember">';   
+    echo    '<article>';   
     echo    '<img src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
-    echo    '<h1>' . $staffMember['name'] . '</h1>';
-    echo    '</div>';       
-}
-?>
-    </section>
-
-    <section id="reviews">
-        <h1>Reviews</h1>
-        <div class="scrolling-wrapper">
-<?php
-        foreach($reviews as $review) {
-    echo    '<div class="card"><h2>' . $review['title'] . '</h2>';     
-    foreach(range(1,$review['stars']) as $stars){
-        echo    '✯';   
-    }
-    echo    '<p>' . $review['content'] . '</p>';
-    echo    '</div>'; 
-
+    echo    '<h3>' . $staffMember['name'] . '</h3>';
+    echo    '</article>';       
 }
 ?>
         </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <div>
+<?php
+        foreach($reviews as $review) {
+    echo    '<article><h3>' . $review['title'] . '</h3>';     
+    for($i = 0; $i < $review['stars']; $i++){
+        echo    '<span class="star full">★</span>';   
+    }
+    for($i = 0; $i < 5-$review['stars']; $i++){
+        echo    '<span class="star blank">★</span>';   
+    }
+    echo    '<p>' . $review['content'] . '</p>';
+    echo    '</article>'; 
+
+}
+?>      </div>
     </section>
 </main>
 

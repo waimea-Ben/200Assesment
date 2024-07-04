@@ -29,16 +29,15 @@ if ($credentials['username'] == $username && $credentials['password'] == $passwo
 }
 
 if ($credentials['username'] != $username && $credentials['password'] == $password) {
-    header('location: index.php?error=Incorrect Username');
+    header('location: admin.php');
 }
 
 if ($credentials['username'] == $username && $credentials['password'] != $password) {
-    header('location: index.php?error=Incorrect Password');
+    header('location: adminlogin.php?error=Incorrect Password');
 }
 
 if ($credentials['username'] != $username && $credentials['password'] != $password) {
-
-    header('location: index.php?error=Incorrect password and username');
+    header('location: adminlogin.php?error=Incorrect password and username');
 }
 
 ?>
