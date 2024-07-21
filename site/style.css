@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
 box-sizing: border-box;
 }
@@ -8,13 +10,36 @@ html {
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* MAIN HEADER ***************************************************************/
+
+#hero_image{
+  background-image: url("images/bakgroundhome.webp");
+  background-color: #aaaaaa;
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero_text h1{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+  font-size: 4rem;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+}
 
 header {
   position: sticky;
@@ -28,13 +53,22 @@ header {
   padding: 1rem;
 }
 
+h1{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header h1 {
   margin: 0;
   font-size: 1.5rem;
 }
 
 header h1 a {
+  padding-left: 1rem;
   text-decoration: none;
+  
 }
 
 
@@ -148,6 +182,19 @@ article{
     justify-content: space-between; */
 }
 
+#about{
+  background-color: #a9cbae8a;
+}
+
+#contact{
+  background-color: #87b6a5d7;
+}
+
+
+#services{
+  text-align: left;
+}
+
 
 #staff div {
   display: flex;
@@ -158,11 +205,6 @@ article{
 #staff article {
   width: 100%;
   max-width: 12rem;
-  /* display: inline-block;
-  margin: 1rem;
-  width: 30%;
-  padding: 0.5rem;
-  background-color: #fff; */
 }
 
 #bookings{
@@ -180,8 +222,7 @@ article{
 #reviews article {
   width: 100%;
   font-size: 0.8rem;
-  max-width: 12rem;
-  background-color: lightcyan;
+  background-color: #a291655b;
 }
 
 summary {
@@ -219,13 +260,10 @@ details {
   padding: 0.5rem;
 }
 
-/* extra styles */
-
-/* article > *:first-child {margin: 0;}
-article > * + * {margin: 0.75em 0 0 0;}
-article {padding: 0px; margin: 0;} */
-
-
+.rule_below{
+  padding-bottom: 0.2rem;
+  border-bottom: #000000 1px solid;
+}
 
 .error {
   background: #eec6c6;
@@ -239,10 +277,12 @@ article {padding: 0px; margin: 0;} */
 /*star rating////////////////////////////////////////////////////*/
 span.star.blank {
   color: black;
+  font-size: 1.5rem;
 }
 
 span.star.full {
   color: orange;
+  font-size: 1.5rem;
 }
 .rate {
     float: left;

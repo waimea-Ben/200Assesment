@@ -45,11 +45,13 @@ catch (PDOException $e) {
 }
 
 ?>
+
 <main>  
-    <section id="hero_image">
-        <img src="" alt="">
-        <h1>Geosolutions</h1>
-    </section>
+    <div id="hero_image">
+        <div id="hero_text">
+            <h1>Geosolutions</h1>
+        </div>
+    </div>
     
     <section id="about">
         <h2>About Us</h2>
@@ -92,13 +94,14 @@ catch (PDOException $e) {
         <div>
 <?php
         foreach($reviews as $review) {
-    echo    '<article><h3>' . $review['title'] . '</h3>';     
+    echo    '<article>';     
     for($i = 0; $i < $review['stars']; $i++){
         echo    '<span class="star full">★</span>';   
     }
     for($i = 0; $i < 5-$review['stars']; $i++){
         echo    '<span class="star blank">★</span>';   
     }
+    echo    '<h5>' . $review['title'] . '</h5>';
     echo    '<p>' . $review['content'] . '</p>';
     echo    '</article>'; 
 
