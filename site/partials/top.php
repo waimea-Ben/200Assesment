@@ -26,7 +26,8 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 <body>
 
     <header>
-        <h1><a href="index.php"><?= SITE_NAME ?></a></h1>
+        <h1><a href="index.php" id="title">Geosolutions</a></h1>
+        <a href="index.php"><img src="images/geoicon.png" id="title-img" alt="Geosolutions Logo"></a>
         <nav>
                 <div id="menudiv">
                     <label for="menu">☰</label>

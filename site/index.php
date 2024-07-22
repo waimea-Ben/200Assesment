@@ -46,7 +46,6 @@ catch (PDOException $e) {
 
 ?>
 
-<main>  
     <div id="hero_image">
         <div id="hero_text">
             <h1>Geosolutions</h1>
@@ -108,7 +107,6 @@ catch (PDOException $e) {
 }
 ?>      </div>
     </section>
-</main>
 
 
 <?php include 'partials/bottom.php'; ?>
