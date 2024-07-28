@@ -40,6 +40,9 @@ consolelog($bookings);
     echo    '<p>' .       $booking['bphone']      . '</p>';
     echo    '<p>' .       $booking['bdate']       . '</p>';
     echo    '<a href="delete-booking.php?id=' . $booking['bid'] . '">🗑️</a>';
+    echo    '<div onclick="" id="siteplan">'; 
+    echo        '<img src="load-siteplan-image.php?id=' . $booking['bid'] . '">';
+    echo    '</div>'; 
     echo    '</details>';       
 }
 ?>

@@ -118,3 +118,17 @@ The client stated that she is happy with the current design as has no further fe
 ### 13/06/24
 Made some small changes to the figma layout adding a consultations page where the items can at least bge viewed as well as tidying up all the colours and buttons as well as making the figma site fully operable.
 ![minor changes i7](images/figmai7.png)
+
+### 29/07/24
+long time no see. a lot has happened.
+made a full mockup of the website with all to most fundamental components of the site up and running.
+
+a wide screen and phone screen layout of the homescreen so far with the media query governing the head title. 
+![Wide layout homescreen](wlohs.png)
+
+![phone layout homescreen](plohs.png)
+
+
+the home page zoomed out showing all the home screen components so far
+with contacts, reviews. staff, and service list. all of which are still far from done
+![a very zoomed out overlook](avzool.png)
