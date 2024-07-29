@@ -35,14 +35,14 @@ consoleLog($service_images);
 
 
 
-echo    '<div style="background-image: url("load-main-service-image.php?id=' . $services['id'] . '") id="service_hero_image">';     
-echo            '<div id="service_hero_text">';
-echo                '<h1>' . $services['name'] . '</h1>';
-echo            '</div>';
-echo        '</div>';
+echo    '<div id="service_hero_image">'; 
+echo        '<img src="load-main-service-image.php?id=' . $services['id'] . '">';
+echo    '<div id="service_hero_text">';
+echo        '<h1>' . $services['name'] . '</h1>';
+echo    '</div>';
+echo    '</div>';
 
 echo   '<section id="service_info">';
-echo       '<h2>' . $services['name'] . '</h2>';
 echo       '<p>' . $services['description'] . '</p>';
 echo   '</section>';
 

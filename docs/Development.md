@@ -124,11 +124,21 @@ long time no see. a lot has happened.
 made a full mockup of the website with all to most fundamental components of the site up and running.
 
 a wide screen and phone screen layout of the homescreen so far with the media query governing the head title. 
-![Wide layout homescreen](wlohs.png)
+![Wide layout homescreen](images/wlohs.png)
 
-![phone layout homescreen](plohs.png)
+![phone layout homescreen](images/plohs.png)
 
 
 the home page zoomed out showing all the home screen components so far
 with contacts, reviews. staff, and service list. all of which are still far from done
-![a very zoomed out overlook](avzool.png)
+![a very zoomed out overlook](images/avzool.png)
+
+
+login page so far
+![login page](images/lp.png)
+
+admin page with example info as well as the dropdown with a delete and downloadable siteplan.
+![Alt text](images/admine.png)
+
+ability to add new reviews via this page by users
+![review new](images/rvp.png)

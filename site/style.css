@@ -8,7 +8,7 @@ html {
 }
 
 body main{
-  padding: 0;
+  padding: 0.5rem;
 }
 
 body {
@@ -58,9 +58,11 @@ body {
   background-size: cover;
 }
 #service_hero_image{
-  height: 20rem;
+  position: relative;
+  /* height: 20rem; */
   background-position: center;
   background-size: cover;
+  z-index: -9;
 }
 
 #hero_text h1{
@@ -74,13 +76,18 @@ body {
 }
 
 #service_hero_text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+
+}
+#service_hero_text h1{
   font-size: 3rem;
   color: #ffffff;
   font-family: "Jost", sans-serif;
+  text-shadow: 0 0.1em 0.2em #000;
+  margin: 0;
 }
 
 body header {
@@ -135,9 +142,22 @@ input:checked ~ #admin-login{
   display: none;
 }
 
+#services li{
+  list-style-type: none;
+}
 
+#services a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: #a2916593;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.1rem 0.2rem;
+}
 
 .menu-options{
+  z-index: 59999999999;
   display: none;
   top: 3em;
   right: 0.5rem;
@@ -208,11 +228,6 @@ details{
 }
 
 
-#services{
-  text-align: left;
-}
-
-
 #staff div {
   display: flex;
   gap: 2rem;
@@ -237,6 +252,7 @@ details{
 }
 
 #reviews article {
+  
   width: 100%;
   font-size: 0.8rem;
   background-color: #a291655b;
@@ -297,9 +313,13 @@ details {
   height: auto;
 }
 
+
+label{
+  text-align: left;
+}
 /*star rating////////////////////////////////////////////////////*/
 span.star.blank {
-  color: black;
+  color: rgba(73, 73, 73, 0.753);
   font-size: 1.5rem;
 }
 
@@ -308,8 +328,9 @@ span.star.full {
   font-size: 1.5rem;
 }
 .rate {
-    float: left;
-    height: 46px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    height: 3rem;
     padding: 0 10px;
 }
 
@@ -319,7 +340,6 @@ span.star.full {
 }
 
 .rate:not(:checked) > label {
-    float:right;
     width:1em;
     overflow:hidden;
     white-space:nowrap;

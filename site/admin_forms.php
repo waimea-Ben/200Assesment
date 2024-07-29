@@ -80,6 +80,29 @@ consolelog($services);
 </form>
 
 
+<h1> New Service image example </h1>
+
+ <form method="post" action="add-service-example.php" enctype="multipart/form-data">
+
+ <label>Service</label>
+    <select name="service" required>
+<?php
+    foreach($services as $service) {
+    echo    '<option value="' . $service['id'] . '">' . $service['name'] . '</option>';
+}?>
+    </select>
+
+    <label>Example image</label>
+    <input type="file" 
+           name="image"
+           accept="image/*" 
+           required 
+           placeholder="upload file">
+
+    <input id='add' type="submit" value="Add">
+</form>
+
+
 <?php 
 
 include 'partials/bottom.php'; 
