@@ -1,22 +1,12 @@
 <?php require 'lib/utils.php'; 
 include 'partials/top.php';
 
-$db = connectToDB();
+session_name('bemartinGeoSolutions');
+session_start();
+consoleLog($_SESSION);
+$loggedIn = $_SESSION['user']['loggedIn'] ?? false;
+if ($loggedIn == true) header('location:admin.php');
 
-$query = "SELECT * FROM admin_creds";
-
-try{
-    $stmt = $db->prepare($query);
-    $stmt->execute();
-    $credentials = $stmt->fetch();   // Will only be one record
-}
-
-
-catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB service Add', ERROR);
-    die('there was an error Adding service to Database');
-}
-consoleLog($credentials);
 ?>
 <form method="post" action="login.php">
     <?php if (isset($_GET['error'])) { ?>

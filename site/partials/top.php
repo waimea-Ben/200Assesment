@@ -20,7 +20,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
     />
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="icon" type="image/x-icon" href="/images/geoicon.png">
 </head>
 
 <body>
@@ -33,8 +33,8 @@ $page = basename($_SERVER['SCRIPT_NAME']);
                     <label for="menu">☰</label>
                     <input type='checkbox' name='menu' id='menu'>
                     <ul class="menu-options">
-                        <li><a href="booking_form.php">Booking</a></li>
-                        <li><a href="adminlogin.php">login</a></li>
+                        <li><a href="booking-form.php">Booking</a></li>
+                        <li><a href="adminlogin.php">Admin</a></li>
                         <li><a href="form-review.php">Review</a></li>
                     </ul>
             </div>

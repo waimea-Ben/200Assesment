@@ -1,6 +1,9 @@
 <?php 
 require 'lib/utils.php'; 
 
+session_name('bemartinGeoSolutions');
+session_start();
+consoleLog($_SESSION);
 
 $username =$_POST['username'];
 $password = $_POST['password'];
@@ -23,21 +26,15 @@ catch (PDOException $e) {
     die('there was an error Adding service to Database');
 }
 
+consoleLog($credentials);
 
-if ($credentials['username'] == $username && $credentials['password'] == $password) {
+if ($credentials['admin'] == $username && $credentials['password'] == $password) {
+    $_SESSION['user']['loggedIn'] = true;
     header('location: admin.php');
 }
-
-if ($credentials['username'] != $username && $credentials['password'] == $password) {
-    header('location: admin.php');
+else {
+    header('location: adminlogin.php?error=Incorrect password or username');
 }
 
-if ($credentials['username'] == $username && $credentials['password'] != $password) {
-    header('location: adminlogin.php?error=Incorrect Password');
-}
-
-if ($credentials['username'] != $username && $credentials['password'] != $password) {
-    header('location: adminlogin.php?error=Incorrect password and username');
-}
 
 ?>

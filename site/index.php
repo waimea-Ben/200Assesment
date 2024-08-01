@@ -60,7 +60,7 @@ catch (PDOException $e) {
     <section id="contact">
         <h2>Contact us</h2>
         <p>1282 address bla bla, Email email, phone</p>
-        <a href="booking_form.php">Book A Consultation</a>
+        <a href="forms/booking_form.php">Book A Consultation</a>
     </section>
 
     <section id="Services">
@@ -68,7 +68,7 @@ catch (PDOException $e) {
 <?php
         foreach($services as $service) {
     echo    '<ul>';         
-    echo    '<li><a href="service_info.php?id=' . $service['id'] . '">' . $service['name'] . '</a></li>';
+    echo    '<li><a href="service-info.php?id=' . $service['id'] . '">' . $service['name'] . '</a></li>';
     echo    '</ul>';       
 }
 ?>
@@ -80,7 +80,7 @@ catch (PDOException $e) {
 <?php
         foreach($staff as $staffMember) {
     echo    '<article>';   
-    echo    '<img src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
+    echo    '<img src="load/load-staff-image.php?id=' . $staffMember['id'] . '">';      
     echo    '<h3>' . $staffMember['name'] . '</h3>';
     echo    '</article>';       
 }
