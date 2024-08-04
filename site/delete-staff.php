@@ -19,5 +19,5 @@ catch (PDOException $e) {
     die('there was an error Removing Staff from Database');
 }
 
-header('location: admin_delete_forms.php');
+header('location: admin-delete-forms.php');
 ?>

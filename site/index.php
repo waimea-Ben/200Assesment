@@ -17,7 +17,7 @@ catch (PDOException $e) {
     die();
 }
 
-$query = 'SELECT id, `name` FROM staff ORDER BY `name` ASC';
+$query = 'SELECT id, `name`, email, description FROM staff ORDER BY `name` ASC';
 
 try{
     $stmt = $db->prepare($query);
@@ -60,7 +60,7 @@ catch (PDOException $e) {
     <section id="contact">
         <h2>Contact us</h2>
         <p>1282 address bla bla, Email email, phone</p>
-        <a href="forms/booking_form.php">Book A Consultation</a>
+        <a href="booking-form.php">Book A Consultation</a>
     </section>
 
     <section id="Services">
@@ -79,9 +79,15 @@ catch (PDOException $e) {
         <div>
 <?php
         foreach($staff as $staffMember) {
-    echo    '<article>';   
-    echo    '<img src="load/load-staff-image.php?id=' . $staffMember['id'] . '">';      
-    echo    '<h3>' . $staffMember['name'] . '</h3>';
+    echo    '<article>';
+    echo    '<div class="container">';
+    echo        '<img src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
+    echo        '<div class="overlay">';
+    echo            '<h6>' . $staffMember['description'] . '</h6>';
+    echo            '<p>' . $staffMember['name'] . '</p>';
+    echo            '<p>' . $staffMember['email'] . '</p>';
+    echo        '</div>';
+    echo    '</div>';
     echo    '</article>';       
 }
 ?>
