@@ -1,9 +1,9 @@
-    </main>
+        </main>
 
-    <footer>
-        &copy; <?= date('Y') ?> Ben Martin
-    </footer>
+        <footer>
+            &copy; <?= date('Y') ?> Ben Martin
+        </footer>
 
-</body>
+    </body>
 
 </html>

@@ -101,6 +101,7 @@ body header {
   border-bottom: 1px solid slategrey;
   padding: 0.5rem;
   width: 100%;
+  z-index: 10000;
 }
 
 h1{
@@ -142,11 +143,11 @@ input:checked ~ #admin-login{
   display: none;
 }
 
-#services li{
-  list-style-type: none;
+#Services li{
+  list-style: none;
 }
 
-#services a{
+#Services a{
   display: flex;
   text-decoration: none;
   color: black;
@@ -240,39 +241,48 @@ details{
 
 }
 
-
-.container {
+.all-staff {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.all-staff article {
   position: relative;
   overflow: hidden; /* Ensure the overlay doesn't overflow the container */
   gap: 2rem;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
+
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
-  bottom: -33.33%; /* Start below the bottom of the container */
-  background: rgb(255, 255, 255); /* White see-through */
+  bottom: -50%; /* Start below the bottom of the container */
+  background: rgba(255, 255, 255, 0.9); /* White see-through */
   color: #000000;
   width: 100%;
-  height: 33.33%; /* Cover the bottom third of the container */
   transition: bottom 0.5s ease;
   text-align: center;
   z-index: 2000;
 }
 
 /* When you mouse over the container, slide up the overlay */
-.container:hover .overlay {
+.all-staff article:hover .overlay {
   bottom: 0; /* Slide up to the bottom of the container */
 }
 
 h6{
   font-weight: 400;
   color: #000;
+  margin: 0.5rem 0;
 }
 
-
+.overlay p{
+  margin:0 ;
+}
 
 
 #bookings{

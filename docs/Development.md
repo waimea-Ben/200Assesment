@@ -142,3 +142,9 @@ admin page with example info as well as the dropdown with a delete and downloada
 
 ability to add new reviews via this page by users
 ![review new](images/rvp.png)
+
+
+### 06/08/24
+did some code validation today by running my page sources through w3c validator.
+a few errors were produced but most resided inside of the top partial.
+![partial errors](pe.png)

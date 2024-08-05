@@ -76,18 +76,18 @@ catch (PDOException $e) {
 
     <section id="staff">
         <h2>Our Staff</h2>
-        <div>
+        <div class="all-staff">
 <?php
         foreach($staff as $staffMember) {
     echo    '<article>';
-    echo    '<div class="container">';
+
     echo        '<img src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
     echo        '<div class="overlay">';
     echo            '<h6>' . $staffMember['description'] . '</h6>';
     echo            '<p>' . $staffMember['name'] . '</p>';
     echo            '<p>' . $staffMember['email'] . '</p>';
     echo        '</div>';
-    echo    '</div>';
+
     echo    '</article>';       
 }
 ?>
