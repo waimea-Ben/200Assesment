@@ -92,6 +92,11 @@ consolelog($services);
 }?>
     </select>
 
+    <label>Image Description</label>
+    <input type="text" 
+           name="alt" 
+           placeholder="E.G. Tree">
+
     <label>Example image</label>
     <input type="file" 
            name="image"

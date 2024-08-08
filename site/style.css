@@ -8,7 +8,7 @@ html {
 }
 
 body main{
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 body {
@@ -33,6 +33,23 @@ body {
   display: none;
 }
 
+#LSmenu{
+  display: block;
+  text-decoration: none;
+}
+
+#LSmenu a{
+  color: #000;
+  text-decoration: none;
+  background-color: #A9CBAE;
+  border-radius: 0.6rem;
+  padding: 0 0.3rem;
+}
+
+#menudiv{
+  display: none;
+}
+
 /* Media query for screens less than 600px */
 @media only screen and (max-width: 600px) {
   #title {
@@ -47,6 +64,13 @@ body {
     margin: 10px; /* Optional: Adjust margin as needed */
     background-color:#A9CBAE ;
     border-radius: 0.7rem;
+  }
+
+  #LSmenu{
+    display: none;
+  }
+  #menudiv{
+    display:block;
   }
 }
 
@@ -93,6 +117,7 @@ body {
 body header {
   position: sticky;
   top: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,6 +181,7 @@ input:checked ~ #admin-login{
   border-radius: 4px;
   padding: 0.1rem 0.2rem;
 }
+
 
 .menu-options{
   z-index: 59999999999;
@@ -364,6 +390,11 @@ details {
 label{
   text-align: left;
 }
+
+#service_images{
+  justify-content: center;
+  flex-wrap: wrap;
+}
 /*star rating////////////////////////////////////////////////////*/
 span.star.blank {
   color: rgba(73, 73, 73, 0.753);
@@ -414,4 +445,60 @@ span.star.full {
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
+}
+
+/*service image expamle library////////////////////////
+/* The grid: Four equal columns that floats next to each other */
+.excolumn {
+  width: 10rem;
+  height: 100%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.excolumn img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.excolumn img:hover {
+  opacity: 1;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.row{
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;    
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.fullimage {
+  position: relative;
+  display: none;
+}
+
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }

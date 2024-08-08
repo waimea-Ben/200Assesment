@@ -13,21 +13,22 @@ consoleLog($_FILES, 'FILES');
 ] = uploadedImageData($_FILES['image']);
 
 $service = $_POST['service'];
+$alt = $_POST['alt'];
 
 $db = connectToDB();
 
 $query = 'INSERT INTO service_images
-          (`service`, image_type, image_data)
-          VALUES (?,?,?)';
+          (`service`, image_type, image_data, alt)
+          VALUES (?,?,?,?)';
 
 try{
     $stmt = $db->prepare($query);
-    $stmt->execute([$service, $imageType, $imageData]);
+    $stmt->execute([$service, $imageType, $imageData, $alt]);
 }
 
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'Booking Add', ERROR);
-    die('there was an error Adding new service to Database');
+    consoleLog($e->getMessage(), 'service image Add', ERROR);
+    die('there was an error Adding new service image to Database');
 }
 
 header('location: index.php');

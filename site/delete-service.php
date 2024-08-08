@@ -6,8 +6,8 @@ $id = $_POST['id'];
 
 $db = connectToDB();
 
-$query = 'DELETE FROM services
-          WHERE id= ?' ;
+$query = 'DELETE * FROM services
+          WHERE id= ?';
 
 try{
     $stmt = $db->prepare($query);
@@ -19,5 +19,5 @@ catch (PDOException $e) {
     die('there was an error Removing Service from Database');
 }
 
-header('location: admin_delete_forms.php');
+header('location: admin-delete-forms.php');
 ?>

@@ -147,4 +147,16 @@ ability to add new reviews via this page by users
 ### 06/08/24
 did some code validation today by running my page sources through w3c validator.
 a few errors were produced but most resided inside of the top partial.
-![partial errors](pe.png)
+![partial errors](images/pe.png)
+
+### 08/08/24
+![staff hover display](images/shd.png)
+added the title naem and email of all the staff upon hover with a slight transparency to allow the user to still view image
+
+![wide screen reviews](images/wsr.png)
+how the reviews look when the screen is full size vs when its in mobile view allowing the screen to look best
+![short screen reviews](images/ssr.png)
+
+![short screen logo](images/ssl.png)
+how the logo looks when the screen is full size vs when its in mobile view allowing logo to be most visible
+![wide screen logo](images/wsl.png)
