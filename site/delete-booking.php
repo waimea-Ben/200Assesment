@@ -19,5 +19,5 @@ catch (PDOException $e) {
     die('there was an error Removing Game from Database');
 }
 
-header('location: admin.php');
+header('location: admin-delete-forms.php');
 ?>

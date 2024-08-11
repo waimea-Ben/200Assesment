@@ -8,7 +8,7 @@ html {
 }
 
 body main{
-  padding: 0rem;
+  padding: 0 1rem;
 }
 
 body {
@@ -236,14 +236,12 @@ border-radius: 0.5rem;
 
 /* CONTENT ***************************************************************/
 
-
-section {
-  /* border: 1px solid red; */
-  margin-bottom: 3rem;
-}
-
 details{
   text-align: left;
+}
+
+#reviews article{
+  margin: 1rem;
 }
 
 #about{
@@ -310,6 +308,13 @@ h6{
   margin:0 ;
 }
 
+a{
+  text-decoration: none;
+}
+
+ul{
+  padding: 0%;
+}
 
 #bookings{
   background-color: #A9CBAE;

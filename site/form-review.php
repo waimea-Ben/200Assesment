@@ -29,7 +29,6 @@ include 'partials/top.php';
         <input type="radio" id="star5" name="rate" value="1" />
         <label for="star5" title="text">5 stars</label>
     </div>
-
     <input id='add' type="submit" value="Add">
 </form>
 

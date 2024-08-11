@@ -48,7 +48,7 @@ consolelog($bookings);
 ?>
 <a href="admin-forms.php">New</a>
 <a href="admin-delete-forms.php">Delete</a>
-<a onclick="session_destroy()">
+<a onclick="session_destroy()"></a>
 </section>
 
 <?php 

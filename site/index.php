@@ -54,12 +54,12 @@ catch (PDOException $e) {
     
     <section id="about">
         <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur. Leo quam bibendum sem mattis egestas ultrices id fermentum. Pellentesque faucibus urna scelerisque ultricies faucibus tristique vitae nullam. Augue nisi nunc lobortis nisl tellus. Non egestas dolor vestibulum egestas aliquam facilisi vitae.</p>
+        <p>We are a specialised geotechnical consultancy, covering projects and sites all around the Top of the South Island and look after both the residential and commercial building sectors. We’re a local business and aim to look after our clients so that they tell all their friends. Word-of-mouth referrals are our favourite jobs! Talk to us now and find out how we can help.</p>
     </section>
 
     <section id="contact">
         <h2>Contact us</h2>
-        <p>1282 address bla bla, Email email, phone</p>
+        <p>3a Warren Place, Māpua 7005, 0278986000</p>
         <a href="booking-form.php">Book A Consultation</a>
     </section>
 

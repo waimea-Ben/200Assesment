@@ -50,6 +50,20 @@ catch (PDOException $e) {
     die('there was an error getting data from the database');
 }
 //////////////////////////////////////////////////////////////////////////////
+
+$query = 'SELECT `service`, id, alt FROM service_images';
+
+try{
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $service_images = $stmt->fetchall();
+}
+
+catch (PDOException $e) {
+    consoleLog($e->getMessage(), ERROR);
+    die();
+}
+////////////////////////////////////////////////////////////////////////////////////
 ?>
 
 <h2> Delete Staff </h2>
@@ -84,6 +98,24 @@ catch (PDOException $e) {
 </form>
 
 
+
+<h2> Delete Service example </h2>
+
+ <form method="post" action="delete-service-example.php">
+
+ <label>Example</label>
+    <select name="id" required>
+<?php
+    foreach($service_images as $service_ex) {
+    echo    '<option value=' . $service_ex['id'] . '>' . $service_ex['id'] . '. ' . $service_ex['alt'] . '</option>';
+}?>
+    </select>
+
+    <input id='delete' type="submit" value="Delete" onClick="return confirm('Are you sure?');">
+</form>
+
+
+
 <h2> Delete Review </h2>
 
  <form method="post" action="delete-review.php">
@@ -98,6 +130,7 @@ catch (PDOException $e) {
 
     <input id='delete' type="submit" value="Delete" onClick="return confirm('Are you sure?');">
 </form>
+
 
 <?php 
 
