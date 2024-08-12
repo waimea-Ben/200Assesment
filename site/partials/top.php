@@ -5,12 +5,14 @@
 $page = basename($_SERVER['SCRIPT_NAME']);
 
 ?>
+
 <!DOCTYPE html>
+<html lang="en">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<html lang="en">
+
 
     <head>
         <meta charset="UTF-8">
@@ -24,6 +26,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <body>
 
         <header>
+        <meta name="color-scheme" content="light only">
             <h1><a href="index.php" id="title">Geosolutions</a></h1>
             <a href="index.php"><img src="images/geoicon.png" id="title-img" alt="Geosolutions Logo"></a>
             <nav>

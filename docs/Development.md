@@ -160,3 +160,17 @@ how the reviews look when the screen is full size vs when its in mobile view all
 ![short screen logo](images/ssl.png)
 how the logo looks when the screen is full size vs when its in mobile view allowing logo to be most visible
 ![wide screen logo](images/wsl.png)
+
+### 13/08/2024
+Stakeholder stated
+>Love it so much. think it has come along so very well. little bit of tidying will be necessary but the design is perfect. no more feedback from me.
+![staff overlay](images/overlay.png)
+added the staff details upon hover making use of an overlay.
+
+![photo library](images/photolib.png)
+maade the example poto library so the user can browse the example photos.
+
+![delete page](images/deletepage.png)
+the delete page
+
+Did more code validation on remaining pages

@@ -29,7 +29,6 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), ERROR);
     die();
 }
-consoleLog($staff);
 
 $query = 'SELECT * FROM Reviews';
 
