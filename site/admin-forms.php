@@ -19,7 +19,6 @@ catch (PDOException $e) {
     die('there was an error getting data from the database');
 }
 
-consolelog($services);
 ?>
 
 <h1> New Staff Member </h1>
@@ -47,10 +46,9 @@ consolelog($services);
     <input type="file" 
            name="image"
            accept="image/*" 
-           required 
-           placeholder="upload file">
+           required>
 
-    <input id='add' type="submit" value="Add">
+    <input type="submit" value="Add">
 </form>
 
 <h1> New Service </h1>
@@ -73,10 +71,9 @@ consolelog($services);
     <input type="file" 
            name="image"
            accept="image/*" 
-           required 
-           placeholder="upload file">
+           required>
 
-    <input id='add' type="submit" value="Add">
+    <input type="submit" value="Add">
 </form>
 
 
@@ -85,7 +82,7 @@ consolelog($services);
  <form method="post" action="add-service-example.php" enctype="multipart/form-data">
 
  <label>Service</label>
-    <select name="service" required>
+    <select name="service">
 <?php
     foreach($services as $service) {
     echo    '<option value="' . $service['id'] . '">' . $service['name'] . '</option>';
@@ -101,10 +98,9 @@ consolelog($services);
     <input type="file" 
            name="image"
            accept="image/*" 
-           required 
-           placeholder="upload file">
+           required>
 
-    <input id='add' type="submit" value="Add">
+    <input type="submit" value="Add">
 </form>
 
 

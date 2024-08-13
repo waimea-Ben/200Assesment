@@ -71,14 +71,14 @@ catch (PDOException $e) {
  <form method="post" action="delete-staff.php">
 
  <label>Staff Member</label>
-    <select name="id" required>
+    <select name="id" >
 <?php
     foreach($staff as $staffmem) {
     echo    '<option value="' . $staffmem['id'] . '">' . $staffmem['Name'] . '</option>';
 }?>
     </select>
 
-    <input id='delete' type="submit" value="Delete" onClick="return confirm('Are you sure?');">
+    <input type="submit" value="Delete" onClick="return confirm('Are you sure?');">
 </form>
 
 
@@ -87,14 +87,14 @@ catch (PDOException $e) {
  <form method="post" action="delete-service.php">
 
  <label>Service</label>
-    <select name="id" required>
+    <select name="id" >
 <?php
     foreach($services as $service) {
     echo    '<option value="' . $service['id'] . '">' . $service['name'] . '</option>';
 }?>
     </select>
 
-    <input id='delete' type="submit" value="Delete" onClick="return confirm('Are you sure?');">
+    <input type="submit" value="Delete" onClick="return confirm('Are you sure?');">
 </form>
 
 
@@ -104,14 +104,14 @@ catch (PDOException $e) {
  <form method="post" action="delete-service-example.php">
 
  <label>Example</label>
-    <select name="id" required>
+    <select name="id" >
 <?php
     foreach($service_images as $service_ex) {
     echo    '<option value=' . $service_ex['id'] . '>' . $service_ex['id'] . '. ' . $service_ex['alt'] . '</option>';
 }?>
     </select>
 
-    <input id='delete' type="submit" value="Delete" onClick="return confirm('Are you sure?');">
+    <input type="submit" value="Delete" onClick="return confirm('Are you sure?');">
 </form>
 
 
@@ -121,14 +121,14 @@ catch (PDOException $e) {
  <form method="post" action="delete-review.php">
 
  <label>Review Title</label>
-    <select name="id" required>
+    <select name="id" >
 <?php
     foreach($reviews as $review) {
     echo    '<option value="' . $review['id'] . '">' . $review['title'] . '</option>';
 }?>
     </select>
 
-    <input id='delete' type="submit" value="Delete" onClick="return confirm('Are you sure?');">
+    <input type="submit" value="Delete" onClick="return confirm('Are you sure?');">
 </form>
 
 

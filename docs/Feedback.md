@@ -25,7 +25,7 @@
 
 ## Front-End UI Designs
 
-- [ -] **A** Design for key web pages have been sketched out with supporting notes, etc.
+- [x] **A** Design for key web pages have been sketched out with supporting notes, etc.
 
 > You should be well into this by now!
 
@@ -34,14 +34,14 @@
 
 ### Functionality Testing
 
-- [ ] **A** Functionality has been tested and there is evidence for this (screenshots, etc.)
-- [ ] **M** Testing is thorough (all functionality covered)
+- [x] **A** Functionality has been tested and there is evidence for this (screenshots, etc.)
+- [x] **M** Testing is thorough (all functionality covered)
 
 > Comments...  
 
 ### Code Testing
 
-- [ ] **E** Code (HTML and CSS) validates. Documented evidence for this
+- [x] **E** Code (HTML and CSS) validates. Documented evidence for this
 
 > Comments...  
 

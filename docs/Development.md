@@ -177,10 +177,10 @@ the delete page
 #### Validation Checklist
 - [x] index
 - [x] admin home
-- [ ] admin add
-- [ ] admin del
-- [ ] review
-- [ ] booking forms
+- [x] admin add
+- [x] admin del
+- [x] review
+- [x] booking
 
 
 
@@ -192,3 +192,15 @@ admin page
 noticed that most image tags were missing an alt tag. went through and added all those.
 ![alt missing](images/missalt.png)
 after that, home page completely valdiated
+
+all the errors for admin add
+![adminadd errors](adminaerr.png)
+
+Admin delete had alot of the same errors as in admin add so just quickly solved those and then the page was perfect.
+
+only error one reviews was "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values."
+
+again very similar errores as the last pages in the booking page
+
+All pages are now fully validated and up tp spec
+

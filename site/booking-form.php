@@ -18,8 +18,6 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List fetch', ERROR);
     die('there was an error getting data from the database');
 }
-
-consolelog($services);
 ?>
 
 <h1> New Booking </h1>
@@ -46,11 +44,10 @@ consolelog($services);
     <label>Date</label>
     <input type="date" 
            name="date" 
-           required 
-           placeholder="DD/MM/YYYY">
+           required >
 
     <label>Service</label>
-    <select name="service" required>
+    <select name="service">
 <?php
     foreach($services as $service) {
     echo    '<option value="' . $service['id'] . '">' . $service['name'] . '</option>';
@@ -66,8 +63,7 @@ consolelog($services);
     <input type="file" 
            name="image"
            accept="image/*" 
-           required 
-           placeholder="upload file">
+           required>
 
     <input id='add' type="submit" value="Add">
 </form>
