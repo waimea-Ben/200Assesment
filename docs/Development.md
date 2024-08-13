@@ -173,4 +173,22 @@ maade the example poto library so the user can browse the example photos.
 ![delete page](images/deletepage.png)
 the delete page
 
+
+#### Validation Checklist
+- [x] index
+- [x] admin home
+- [ ] admin add
+- [ ] admin del
+- [ ] review
+- [ ] booking forms
+
+
+
+
 Did more code validation on remaining pages
+admin page
+![Admin page complete](images/adminpval.png)
+
+noticed that most image tags were missing an alt tag. went through and added all those.
+![alt missing](images/missalt.png)
+after that, home page completely valdiated

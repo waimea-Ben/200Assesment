@@ -80,7 +80,7 @@ catch (PDOException $e) {
         foreach($staff as $staffMember) {
     echo    '<article>';
 
-    echo        '<img src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
+    echo        '<img alt="' . $staffMember['name'] . '" src="load-staff-image.php?id=' . $staffMember['id'] . '">';      
     echo        '<div class="overlay">';
     echo            '<h6>' . $staffMember['description'] . '</h6>';
     echo            '<p>' . $staffMember['name'] . '</p>';

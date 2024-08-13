@@ -30,8 +30,9 @@ catch (PDOException $e) {
 consolelog($bookings);
 ?>
 
-<h1> consultations </h1>
+<br>
 <section id="bookings">
+<h2> consultations </h2>
 <?php
         foreach($bookings as $booking) {  
     echo    '<details>';
@@ -41,7 +42,7 @@ consolelog($bookings);
     echo    '<p>' .       $booking['bdate']       . '</p>';
     echo    '<a href="delete-booking.php?id=' . $booking['bid'] . '">🗑️</a>';
     echo    '<div onclick="" id="siteplan">'; 
-    echo        '<img src="load-siteplan-image.php?id=' . $booking['bid'] . '">';
+    echo        '<img alt="Siteplan" src="load-siteplan-image.php?id=' . $booking['bid'] . '">';
     echo    '</div>'; 
     echo    '</details>';       
 }
