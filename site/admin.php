@@ -1,10 +1,12 @@
-
 <?php 
+// Include utility functions and top part of the webpage
 require 'lib/utils.php';
 include 'partials/top.php'; 
 
+// Connect to the database
 $db = connectToDB();
 
+// Query to fetch booking information along with the corresponding service name
 $query = 'SELECT bookings.name    AS bname,
                  bookings.email   AS bemail,
                  bookings.phone   AS bphone,
@@ -13,46 +15,51 @@ $query = 'SELECT bookings.name    AS bname,
                  bookings.service AS bservice,
                  bookings.id      AS bid,
                  services.name    AS sname
-                 
-FROM bookings JOIN services ON bookings.service = services.id';
+FROM bookings 
+JOIN services ON bookings.service = services.id';
 
-try{
+try {
+    // Prepare and execute the query
     $stmt = $db->prepare($query);
     $stmt->execute();
+    // Fetch all results
     $bookings = $stmt->fetchAll();
-}
-
-catch (PDOException $e) {
+} catch (PDOException $e) {
+    // Log error and display a user-friendly message
     consoleLog($e->getMessage(), 'DB List fetch', ERROR);
-    die('there was an error getting data from the database');
+    die('There was an error getting data from the database');
 }
 
-consolelog($bookings);
+
 ?>
 
 <br>
+
+<!-- Bookings Section -->
 <section id="bookings">
-<h2> consultations </h2>
-<?php
-        foreach($bookings as $booking) {  
-    echo    '<details>';
-    echo    '<summary>' . $booking['bname'] . '</summary>';
-    echo    '<p>' .       $booking['baddress']    . '</p>';
-    echo    '<p>' .       $booking['bphone']      . '</p>';
-    echo    '<p>' .       $booking['bdate']       . '</p>';
-    echo    '<a href="delete-booking.php?id=' . $booking['bid'] . '">🗑️</a>';
-    echo    '<div onclick="" id="siteplan">'; 
-    echo        '<img alt="Siteplan" src="load-siteplan-image.php?id=' . $booking['bid'] . '">';
-    echo    '</div>'; 
-    echo    '</details>';       
-}
-?>
-<a href="admin-forms.php">New</a>
-<a href="admin-delete-forms.php">Delete</a>
-<a onclick="session_destroy()"></a>
+    <h2>Consultations</h2>
+    <?php
+    // Iterate through each booking and display details
+    foreach ($bookings as $booking) {  
+        echo '<details>';
+        echo '<summary>' . htmlspecialchars($booking['bname']) . '</summary>';
+        echo '<p>' . htmlspecialchars($booking['baddress']) . '</p>';
+        echo '<p>' . htmlspecialchars($booking['bphone']) . '</p>';
+        echo '<p>' . htmlspecialchars($booking['bdate']) . '</p>';
+        echo '<a href="delete-booking.php?id=' . htmlspecialchars($booking['bid']) . '">🗑️</a>';
+        echo '<div onclick="" id="siteplan">'; 
+        echo '<img alt="Siteplan" src="load-siteplan-image.php?id=' . htmlspecialchars($booking['bid']) . '">';
+        echo '</div>'; 
+        echo '</details>';       
+    }
+    ?>
+    <!-- Links to other admin functionalities -->
+    <a href="admin-forms.php">New</a>
+    <a href="admin-delete-forms.php">Delete</a>
+    <a  href="index.php" onclick="session_destroy()">Logout</a>
 </section>
 
+<!-- Include the bottom part of the webpage -->
 <?php 
-
 include 'partials/bottom.php'; 
 ?>

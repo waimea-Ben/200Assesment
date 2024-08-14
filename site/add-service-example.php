@@ -1,35 +1,40 @@
 <?php 
-require 'lib/utils.php';
+require 'lib/utils.php';  // Include utility functions for additional functionality
 
-if(empty($_POST) && empty($_FILES)) die ('There was a problem uploading the file (probably too large)');
+// Check if POST or FILES data is empty and terminate if true
+if(empty($_POST) && empty($_FILES)) 
+    die('There was a problem uploading the file (probably too large)');
 
-// Get image data and type of uploaded file from the $_FILES super-global
-consoleLog($_POST, 'POST');
-consoleLog($_FILES, 'FILES');
-
+// Extract image data and type from the uploaded file
 [
-    'data' => $imageData,
-    'type' => $imageType
-] = uploadedImageData($_FILES['image']);
+    'data' => $imageData,  // Binary data of the uploaded image
+    'type' => $imageType   // MIME type of the uploaded image (e.g., image/jpeg)
+] = uploadedImageData($_FILES['image']);  // Function to handle file upload and extraction
 
-$service = $_POST['service'];
-$alt = $_POST['alt'];
+// Retrieve other form data
+$service = $_POST['service']; // ID of the service associated with the image
+$alt = $_POST['alt'];         // Alt text for the image
 
+// Connect to the database
 $db = connectToDB();
 
+// SQL query to insert a new image record into the service_images table
 $query = 'INSERT INTO service_images
           (`service`, image_type, image_data, alt)
           VALUES (?,?,?,?)';
 
-try{
+try {
+    // Prepare the SQL statement
     $stmt = $db->prepare($query);
+    
+    // Execute the statement with form data
     $stmt->execute([$service, $imageType, $imageData, $alt]);
-}
-
-catch (PDOException $e) {
+} catch (PDOException $e) {
+    // Log error message and terminate script if there is an exception
     consoleLog($e->getMessage(), 'service image Add', ERROR);
-    die('there was an error Adding new service image to Database');
+    die('There was an error adding new service image to database');
 }
 
-header('location: index.php');
+// Redirect to the homepage after successfully adding the service image
+header('Location: index.php');
 ?>

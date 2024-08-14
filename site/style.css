@@ -32,6 +32,7 @@ footer{
 #title {
   display: block;
 }
+
 #title-img {
   display: none;
 }
@@ -509,3 +510,28 @@ span.star.full {
   font-size: 35px;
   cursor: pointer;
 }
+
+/* Container for the password input and the show password checkbox */
+/* Container for the password input and eye icon */
+.password-container {
+  position: relative; /* Position relative to allow absolute positioning of the icon */
+  display: flex; /* Flexbox layout to align items */
+  align-items: center; /* Center align items vertically */
+}
+
+/* Style the password input */
+.password-container input[type="password"] {
+  width: 100%; /* Full width of the container */
+  padding-right: 40px; /* Space for the eye icon */
+}
+
+/* Style the eye icon */
+.password-container i {
+  position: absolute; /* Position the icon absolutely within the container */
+  right: 10px; /* Distance from the right edge */
+  top: 40%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for perfect vertical alignment */
+  cursor: pointer; /* Change cursor to pointer to indicate clickability */
+  font-size: 20px; /* Size of the eye icon */
+}
+

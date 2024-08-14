@@ -204,3 +204,6 @@ again very similar errores as the last pages in the booking page
 
 All pages are now fully validated and up tp spec
 
+### 14/08/2024
+![Alt text](image.png)
+![Alt text](image-1.png)
