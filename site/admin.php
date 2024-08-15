@@ -46,17 +46,26 @@ try {
         echo '<p>' . htmlspecialchars($booking['baddress']) . '</p>';
         echo '<p>' . htmlspecialchars($booking['bphone']) . '</p>';
         echo '<p>' . htmlspecialchars($booking['bdate']) . '</p>';
-        echo '<a href="delete-booking.php?id=' . htmlspecialchars($booking['bid']) . '">🗑️</a>';
         echo '<div onclick="" id="siteplan">'; 
         echo '<img alt="Siteplan" src="load-siteplan-image.php?id=' . htmlspecialchars($booking['bid']) . '">';
         echo '</div>'; 
+        echo '<a href="delete-booking.php?id=' . htmlspecialchars($booking['bid']) . '" class="confirmation">🗑️</a>';
         echo '</details>';       
     }
     ?>
+<script type="text/javascript">
+    var elems = document.getElementsByClassName('confirmation');
+    var confirmIt = function (e) {
+        if (!confirm('Are you sure?')) e.preventDefault();
+    };
+    for (var i = 0, l = elems.length; i < l; i++) {
+        elems[i].addEventListener('click', confirmIt, false);
+    }
+</script>
     <!-- Links to other admin functionalities -->
     <a href="admin-forms.php">New</a>
     <a href="admin-delete-forms.php">Delete</a>
-    <a  href="index.php" onclick="session_destroy()">Logout</a>
+    <a  href="index.php" onclick="session_destroy(), setcookie()">Logout</a>
 </section>
 
 <!-- Include the bottom part of the webpage -->

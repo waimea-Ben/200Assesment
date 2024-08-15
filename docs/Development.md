@@ -205,5 +205,14 @@ again very similar errores as the last pages in the booking page
 All pages are now fully validated and up tp spec
 
 ### 14/08/2024
+hide and show password function refined
+
 ![Alt text](image.png)
 ![Alt text](image-1.png)
+
+### 15/08/2024
+
+
+Video showing all relevant and key features
+[website][an_awesome_website_link]
+[an_awesome_website_link]: https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/bemartin_waimea_school_nz/Ean9UZqQSsJKmS0FZKwlWgsBUE0qHtZvCtxjbewbOFoVYw?e=ZddQV2&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIxYTJhN2Q3MS01YWNjLTRmNzEtYTcxZC1lZTczZjJlMGE0MTMifX0%3D

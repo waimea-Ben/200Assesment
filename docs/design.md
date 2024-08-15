@@ -30,7 +30,7 @@ A website that allows a client to easily apply for a consultation, User should b
     - Be accessible to all
     - Be well designed and a pleasure to use
 - for admin they should be able to:
-    - View a list of bookings (organised by job, or by date)
+    - View a list of bookings (organised by name, or by date)
     - Add a new job type to the system
     - Add new staff to the system
 -------------------------------------------------
@@ -116,8 +116,7 @@ Will need to ensure easy and intuitive navigation throughout the website. Users 
 - ### Accessible Design:
  Will need to ensure that the website is accessible to users with disabilities. This includes using alt text for images and designing with color contrast in mind. 
 
-- ### Feedback and Support:
- Must have ways for users to provide feedback or get support if needed. This could include a contact form, live chat support, or a dedicated support email address. Promptly responding to inquiries helps build trust and credibility.
+
 
 -------------------------------------------------
 
