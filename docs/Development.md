@@ -207,11 +207,21 @@ All pages are now fully validated and up tp spec
 ### 14/08/2024
 hide and show password function refined
 
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](images/passshow.png)
+![Alt text](images/passhide.png)
 
 ### 15/08/2024
 
+[Video](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/bemartin_waimea_school_nz/Ean9UZqQSsJKmS0FZKwlWgsBUE0qHtZvCtxjbewbOFoVYw?e=ZddQV2&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIxYTJhN2Q3MS01YWNjLTRmNzEtYTcxZC1lZTczZjJlMGE0MTMifX0%3D) showing all relevant and key features
 
-Video showing all relevant and key features
-[website][https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/bemartin_waimea_school_nz/Ean9UZqQSsJKmS0FZKwlWgsBUE0qHtZvCtxjbewbOFoVYw?e=ZddQV2&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIxYTJhN2Q3MS01YWNjLTRmNzEtYTcxZC1lZTczZjJlMGE0MTMifX0%3D]
+may need to find another way as footage is really dicey
+
+[Video 2](https://share.vidyard.com/watch/hNyVeV4CVfVdUxWdnRW9Jv?) 
+with no chop showing all key features and the coresponding data base changes before and after
+
+[Video 3](https://share.vidyard.com/watch/7RMiETuD4YF1926ehwyitp?)
+showing small details such as login logout and password show button
+
+all code is now fully functional adn operating with no errors in the code.
+went through all the extra files that run in the background with w3c and fixed any errors (one in del-service.php) and now all return 0 errors
+

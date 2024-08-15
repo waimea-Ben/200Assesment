@@ -7,9 +7,6 @@ include 'partials/top.php';
 session_name('bemartinGeoSolutions');
 session_start();
 
-// Log session data (for debugging purposes)
-consoleLog($_SESSION);
-
 // Check if the user is already logged in
 $loggedIn = $_SESSION['user']['loggedIn'] ?? false;
 if ($loggedIn) {

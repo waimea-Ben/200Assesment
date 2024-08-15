@@ -29,8 +29,6 @@ try {
     consoleLog($e->getMessage(), 'DB List fetch', ERROR);
     die('There was an error getting data from the database');
 }
-
-
 ?>
 
 <br>
@@ -46,26 +44,29 @@ try {
         echo '<p>' . htmlspecialchars($booking['baddress']) . '</p>';
         echo '<p>' . htmlspecialchars($booking['bphone']) . '</p>';
         echo '<p>' . htmlspecialchars($booking['bdate']) . '</p>';
-        echo '<div onclick="" id="siteplan">'; 
+        echo '<div id="siteplan">'; 
         echo '<img alt="Siteplan" src="load-siteplan-image.php?id=' . htmlspecialchars($booking['bid']) . '">';
         echo '</div>'; 
         echo '<a href="delete-booking.php?id=' . htmlspecialchars($booking['bid']) . '" class="confirmation">🗑️</a>';
         echo '</details>';       
     }
     ?>
-<script type="text/javascript">
-    var elems = document.getElementsByClassName('confirmation');
-    var confirmIt = function (e) {
-        if (!confirm('Are you sure?')) e.preventDefault();
-    };
-    for (var i = 0, l = elems.length; i < l; i++) {
-        elems[i].addEventListener('click', confirmIt, false);
-    }
-</script>
+
+    <!-- JavaScript for confirmation dialog before deletion -->
+    <script type="text/javascript">
+        document.querySelectorAll('.confirmation').forEach(function(elem) {
+            elem.addEventListener('click', function(e) {
+                if (!confirm('Are you sure you want to delete this booking?')) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+
     <!-- Links to other admin functionalities -->
     <a href="admin-forms.php">New</a>
     <a href="admin-delete-forms.php">Delete</a>
-    <a  href="index.php" onclick="session_destroy(), setcookie()">Logout</a>
+    <a href="logout.php">Log Out</a> <!-- Updated logout link -->
 </section>
 
 <!-- Include the bottom part of the webpage -->
