@@ -26,13 +26,13 @@ A website that allows a client to easily apply for a consultation, User should b
 - make a booking with a dropdown menu for all the job types
 - view staff credentials as well as contact details 
 - Additionally, the system should:
-    - [x]Be very simple to use
-    - [x]Be accessible to all
-    - [x]Be well designed and a pleasure to use
+    - [x] Be very simple to use
+    - [x] Be accessible to all
+    - [x] Be well designed and a pleasure to use
 - for admin they should be able to:
-    - [x]View a list of bookings (organised by name, or by date)
-    - [x]Add a new job type to the system
-    - [x]Add new staff to the system
+    - [x] View a list of bookings (organised by name, or by date)
+    - [x] Add a new job type to the system
+    - [x] Add new staff to the system
 -------------------------------------------------
 
 # Relevant Implications
