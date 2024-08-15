@@ -194,7 +194,7 @@ noticed that most image tags were missing an alt tag. went through and added all
 after that, home page completely valdiated
 
 all the errors for admin add
-![adminadd errors](adminaerr.png)
+![adminadd errors](images/adminaerr.png)
 
 Admin delete had alot of the same errors as in admin add so just quickly solved those and then the page was perfect.
 
