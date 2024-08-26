@@ -71,7 +71,7 @@ try {
 
     <input id="add" type="submit" value="Add">
 </form>
-
+<p><i>personal information is collected in accordance with the New Zealand Privacy Act 1993 and will be used solely for the purposes outlined. We are committed to protecting your privacy and ensuring your data is handled securely.</i></p>
 <?php 
 // Include the bottom part of the webpage
 include 'partials/bottom.php'; 

@@ -55,10 +55,10 @@ Everything Works, and Works Well
 
 Websites must function as intended, so that the user can actually get done what they came there to do, and not take ages doing it.
 
- - Fully satisfy the original need / purpose (e.g. actually be able to make bookings, etc.)
- - Fully meet the user's requirements 
- - Make sure that it copes with all inputs (normal, boundary and abnormal)
- - will need to use lots of testing to make sure it works under all circumstances
+- Fully satisfy the original need / purpose (e.g. actually be able to make bookings, etc.)
+- Fully meet the user's requirements 
+- Make sure that it copes with all inputs (normal, boundary and abnormal)
+- will need to use lots of testing to make sure it works under all circumstances
 
 ### AESTHETICS
 
@@ -137,7 +137,7 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ## Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![database schema](image.png)
 
 ## User Interface Design
 
@@ -150,28 +150,42 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ## Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+to meet the needs of the end users i made sure to use clear and concise but advanced language. It should be accessible in terms of colours and fonts used. The level of IT expertise of the users varis from high to very low, so i made sure the design very intuitive to use. the jobs are all earth related, so the system should be nicely designed, possibly with an earth theme.
 
 ## Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+My list of requirements was as follows:
+- View a list of all the jobs available with a description of each - services menu on home page.
+- make a booking with a dropdown menu for all the job types - booking system implemented with ease of use dropdown
+- view staff credentials as well as contact details - no credentials as stakeholder didn't want them in a meeting. 
+- Additionally, the system should:
+    - [x] Be very simple to use - minimised complexity of site with few pages
+    - [x] Be accessible to all - is adjustable to fit phone sizes and has high contrast scale for colour 
+    - [x] Be well designed and a pleasure to use - all paths follow a logical route not requiring too many clicks for each page. as well as saving logins to reduce unnecessary redos
+- for admin they should be able to:
+    - [x] View a list of bookings (organised by name, or by date) - admin home page dis[plays bookings ina minimalist fashion with all the required info at a click]
+    - [x] Add a new job type to the system - massive add menu with the ability to add and delete every aspect of the site from services, staff, and images
+    - [x] Add new staff to the system
 
 ## Review of USABILITY
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+to address usability in my site and to make it as quick and easy to use as possible while still remaining enjoyable i made sure that i used standard conventions all the wat throughout the site, such as links in the top left, and reviews at the bottom etc.
+made sure to keep the site logical and familiar such as making the logo link back to the home page. whenever the user adds or deletes something they're reverted back to the delete page so if the need to delete another thing they can do so with ease without having to make multiple clicks.
 
 ## Review of FUNCTIONALITY
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+to address functionality i my site i made sure that the website functions as intended.
+this meant making sure that when the clock on links or pages, they're taken to where they expect without having to wait forever. also being able to quickly open the site place a booking and rest assured that their booking is now in the system without having to worry. i also added input validation for all of the inputs into the site, so if a space was lft empty the form would inform you and make sure that the space is filled out before continuing. also added htmlspecialchars so that if special characters are used in the inputs it doesn't affect the code by converting it into the html special chars syntax and back again
 
 ## Review of AESTHETICS
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+to address the aesthetics aspect of my site i consulted with my stakeholder to make sure we got the best colour scheme that had high contrast while still maintaining a sophisticated professional look of the site. i also made sure to keep everything aligned centrally to help creating leading lines to keep the user focused and interest on the site they're looking at. by keeping all the corners of floating elements rounded it makes the website appear softer and more easier on the eyes that appeals to the end users. the font used is a professional sans serif font that accurately encompass the company style, which is perfect for aesthetics. the flo of the page also follows a logical approach with each elements stacked in a way that the user would want when visiting the site.
 
 ## Review of END USERS
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+to address the end users specific needs i kept the design of the site as mature and professional as possible, i did this by keeping the design modern with a sleek simple design with minimal colours and a serious font. because my clientele are all advanced geologists or clients for a high level business i made sure to keep all the language used in the site as formal and advanced as is relevant. by taking in stakeholder feedback wherever possible i was able to improve the site such as adding reviews section and the specialist drop down for each components.
 
 ## Review of LEGALITY
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+To address the legality of my site i made sure that all the pictures used were allowed for public use. to make sure of the i filtered images by creative commons license.
+![ disclaimer](image-1.png) on my bookings page i added a disclaimer that informs the user about the nz privacy act 1993. this ells them that their data is being stored and that it will be manged safely. because the reviews are public there is chance that someone may post harassment comments on the site. this is why i added the ability to delete reviews. if an admin disproves of a review they can delete it to be accordant with all lws
