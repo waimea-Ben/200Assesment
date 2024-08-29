@@ -14,10 +14,10 @@ It is a database-connected website that allows users to:
 
 ## Table of Contents
 
-- design ideas [here](design.md)
-- testing notes [here](development.md)
-- site [here](../site/index.php)
-- css [here](../site/style.css)
+- Design Notes [here](design.md)
+- Dev Log [here](Development.md)
+- Site [here](../site/index.php)
+- CSS [here](../site/style.css)
 
 
 ## Credits
