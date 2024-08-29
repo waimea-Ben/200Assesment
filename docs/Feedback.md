@@ -48,8 +48,8 @@
 
 ## Improvements Based on Testing
 
-- [ -] **M** Info. from testing has been used to improve the outcome
-    - [ -] End-user feedback has been used to improve the system
+- [-] **M** Info. from testing has been used to improve the outcome
+    - [-] End-user feedback has been used to improve the system
 
 ### Iterative Improvements
 

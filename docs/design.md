@@ -124,11 +124,11 @@ Will need to ensure easy and intuitive navigation throughout the website. Users 
 
 ## Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+Place a image here that shows the ![sql v3](images/COMP2.png) of your database: tables, fields and relationships.
 
 ## User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+Place images here that show your ![minor changes i7](images/figmai7.png) of your UI: layout, colours, etc.
 
 
 -------------------------------------------------
@@ -137,20 +137,32 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ## Database Structure
 
-![database schema](image.png)
+![database schema](images/finaldb.png)
 
 ## User Interface Design
 
 Place screenshots and notes here that show your *actual system UI* in action.
-
+![site chop 1](images/sitechop1.png)
+![site chop 2](images/sitechop2.png)
+![site chop 3](images/sitechop3.png)
 
 -------------------------------------------------
 
 # Review and Evaluation
 
+[Video showing all parts of the review](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?)
+
+[0:00-0:52 System Requirments]()
+
+[0:52-1:23 Usability and Functionality](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=52)
+
+[1:23-1:40 Aesthetics](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=83)
+
+[1:50-1:55 Legality](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=110)
+
 ## Meeting the Needs of the Users
 
-to meet the needs of the end users i made sure to use clear and concise but advanced language. It should be accessible in terms of colours and fonts used. The level of IT expertise of the users varis from high to very low, so i made sure the design very intuitive to use. the jobs are all earth related, so the system should be nicely designed, possibly with an earth theme.
+to meet the needs of the end users i made sure to use clear and concise but advanced language. It should be accessible in terms of colours and fonts used. The level of IT expertise of the users varies from high to very low, so i made sure the design very intuitive to use. the jobs are all earth related, so the system should be nicely designed, possibly with an earth theme.
 
 ## Meeting the System Requirements
 
@@ -169,7 +181,7 @@ My list of requirements was as follows:
 
 ## Review of USABILITY
 
-to address usability in my site and to make it as quick and easy to use as possible while still remaining enjoyable i made sure that i used standard conventions all the wat throughout the site, such as links in the top left, and reviews at the bottom etc.
+to address usability in my site and to make it as quick and easy to use as possible while still remaining enjoyable i made sure that i used standard conventions all the wat throughout the site, such as links in the top right, and reviews at the bottom etc.
 made sure to keep the site logical and familiar such as making the logo link back to the home page. whenever the user adds or deletes something they're reverted back to the delete page so if the need to delete another thing they can do so with ease without having to make multiple clicks.
 
 ## Review of FUNCTIONALITY
@@ -188,4 +200,5 @@ to address the end users specific needs i kept the design of the site as mature 
 ## Review of LEGALITY
 
 To address the legality of my site i made sure that all the pictures used were allowed for public use. to make sure of the i filtered images by creative commons license.
-![ disclaimer](image-1.png) on my bookings page i added a disclaimer that informs the user about the nz privacy act 1993. this ells them that their data is being stored and that it will be manged safely. because the reviews are public there is chance that someone may post harassment comments on the site. this is why i added the ability to delete reviews. if an admin disproves of a review they can delete it to be accordant with all lws
+![ disclaimer](disc.png) on my bookings page i added a disclaimer that informs the user about the nz privacy act 1993. this ells them that their data is being stored and that it will be manged safely. because the reviews are public there is chance that someone may post harassment comments on the site. this is why i added the ability to delete reviews. if an admin disproves of a review they can delete it to be accordant with all lws
+

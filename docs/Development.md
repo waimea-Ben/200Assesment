@@ -184,7 +184,6 @@ the delete page
 
 
 
-
 Did more code validation on remaining pages
 admin page
 ![Admin page complete](images/adminpval.png)
