@@ -75,7 +75,7 @@ Took notes on client feedback and made some changes to V1
 
 mainly in adding a better looking list with smoothed bars and a drop down at the edge to ,ove the items around forms section to section as well as to delete them
 
-![Consulataions layout](images/con_planner2.png)
+![Consultations layout](images/con_planner2.png)
 ![iteration 5](images/i5.png)
 
 ### 10/06/24

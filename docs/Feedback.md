@@ -5,7 +5,7 @@
 
 ## System Requirements	
 
-- [ -] **A** Purpose of outcome identified and described, listing specific requirements
+- [x] **A** Purpose of outcome identified and described, listing specific requirements
 - [x] **A** End-users identified and described, listing specific requirements
 - [x] **A** Key functionality that satisfies the purpose and end-user requirements identified
 - [x] **A** Implications, relevant to purpose and end-users, are described and linked to design of outcome
@@ -48,22 +48,22 @@
 
 ## Improvements Based on Testing
 
-- [-] **M** Info. from testing has been used to improve the outcome
-    - [-] End-user feedback has been used to improve the system
+- [x] **M** Info. from testing has been used to improve the outcome
+    - [x] End-user feedback has been used to improve the system
 
 ### Iterative Improvements
 
-- [ ] **E** Evidence of a series of planned, iterative design-test-improve cycles (at least three) used to refine one or more aspects of outcome
-    - [ ] Design of the UI has been iterated
-    - [ ] Implemented UI has been iterated
-    - [ ] Implemented functionality has been iterated
+- [x] **E** Evidence of a series of planned, iterative design-test-improve cycles (at least three) used to refine one or more aspects of outcome
+    - [x] Design of the UI has been iterated
+    - [x] Implemented UI has been iterated
+    - [x] Implemented functionality has been iterated
 
 > Comments...  
 
 
 ## Review and Evaluation
 
-- [ ] **M** Discussion of how the relevant implications were addressed in the implementation of the outcome
+- [x] **M** Discussion of how the relevant implications were addressed in the implementation of the outcome
 
 > Comments...
 

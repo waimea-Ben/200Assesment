@@ -13,7 +13,7 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-GeoSolutions nz td has a website current;y but the website does not allow them the manage the staff as they come and go, requiring the client to message the website manger every time she needs an update. her current website does not have a place for reviews and example which she would like to have.
+GeoSolutions nz td has a website current;y but the website does not allow them the manage the staff as they come and go, requiring the client to message the website manger every time she needs an update. my clients current website does not have a place for reviews and example which she would like to have.
 
 ### End-User Requirements
 
@@ -152,12 +152,9 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 [Video showing all parts of the review](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?)
 
-[0:00-0:52 System Requirments]()
-
-[0:52-1:23 Usability and Functionality](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=52)
-
-[1:23-1:40 Aesthetics](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=83)
-
+[0:00-0:52 System Requirements](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?) \
+[0:52-1:23 Usability and Functionality](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=52) \
+[1:23-1:40 Aesthetics](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=83) \
 [1:50-1:55 Legality](https://share.vidyard.com/watch/m7QyVnZ2w3nKMocJSLudMp?autoplay=2&second=110)
 
 ## Meeting the Needs of the Users
@@ -178,6 +175,8 @@ My list of requirements was as follows:
     - [x] View a list of bookings (organised by name, or by date) - admin home page dis[plays bookings ina minimalist fashion with all the required info at a click]
     - [x] Add a new job type to the system - massive add menu with the ability to add and delete every aspect of the site from services, staff, and images
     - [x] Add new staff to the system
+
+All of these requirements were met as shown in the video, where all parts such as the list of services are displayed, staff credentials are displayed, and all elements can be removed or added.
 
 ## Review of USABILITY
 

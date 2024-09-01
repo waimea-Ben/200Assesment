@@ -19,6 +19,10 @@ It is a database-connected website that allows users to:
 - Site [here](../site/index.php)
 - CSS [here](../site/style.css)
 
+## Accounts
+admin login: \
+username: admin \
+password: 12345678
 
 ## Credits
 
