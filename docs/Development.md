@@ -64,7 +64,7 @@ then changed it to an enum list so instead of having multiple tables for complet
 ![landing page i2](images/LP2.png)
 Incorporated CLIENT FEEDBACK AND MADE ONE BIG LANDING PAGE WITH ALL INFORMATION ON IT.
 will need to wait for extra feedback before progressing.
-![consulataions i1](images/con_planner.png)
+![consultations i1](images/con_planner.png)
 
 ### 27/05/24
 > admin page looks unprofessional with those big words and dotted list, how am i going to access the new stuff page too?<
@@ -73,7 +73,7 @@ Took notes on client feedback and made some changes to V1
 
 ![iteration 4](images/i4.png)
 
-mainly in adding a better looking list with smoothed bars and a drop down at the edge to ,ove the items around froms section to section as well as to delete them
+mainly in adding a better looking list with smoothed bars and a drop down at the edge to ,ove the items around forms section to section as well as to delete them
 
 ![Consulataions layout](images/con_planner2.png)
 ![iteration 5](images/i5.png)
@@ -168,7 +168,7 @@ Stakeholder stated
 added the staff details upon hover making use of an overlay.
 
 ![photo library](images/photolib.png)
-maade the example poto library so the user can browse the example photos.
+made the example photo library so the user can browse the example photos.
 
 ![delete page](images/deletepage.png)
 the delete page
@@ -190,21 +190,22 @@ admin page
 
 noticed that most image tags were missing an alt tag. went through and added all those.
 ![alt missing](images/missalt.png)
-after that, home page completely valdiated
+after that, home page completely validated
 
 all the errors for admin add
 ![adminadd errors](images/adminaerr.png)
 
-Admin delete had alot of the same errors as in admin add so just quickly solved those and then the page was perfect.
+Admin delete had a lot of the same errors as in admin add so just quickly solved those and then the page was perfect.
 
 only error one reviews was "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values."
 
-again very similar errores as the last pages in the booking page
+again very similar errors as the last pages in the booking page
 
-All pages are now fully validated and up tp spec
+### All pages are now fully validated and up to spec
+
 
 ### 14/08/2024
-hide and show password function refined
+hide and show password function refined to now have centred eye that responds to the input
 
 ![Alt text](images/passshow.png)
 ![Alt text](images/passhide.png)
@@ -216,7 +217,7 @@ hide and show password function refined
 may need to find another way as footage is really dicey
 
 [Video 2](https://share.vidyard.com/watch/hNyVeV4CVfVdUxWdnRW9Jv?) 
-with no chop showing all key features and the coresponding data base changes before and after
+with no chop showing all key features and the corresponding data base changes before and after
 
 [Video 3](https://share.vidyard.com/watch/7RMiETuD4YF1926ehwyitp?)
 showing small details such as login logout and password show button
